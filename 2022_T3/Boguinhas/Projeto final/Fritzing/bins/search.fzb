@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Search.png" search="bluetooth hc-05">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="HC-05-male_fix" modelIndex="85418993" path="C:/Users/Aluno AEMTG -/Downloads/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/HC-05-male_fix.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>
