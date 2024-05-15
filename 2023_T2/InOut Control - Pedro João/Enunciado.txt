@@ -1,0 +1,12 @@
+Como projeto final, pretende-se que desenvolvam um projeto, utilizando o microcontrolador Arduino, que evidencie as competências adquiridas ao longo da ação. Se desejarem, poderão integrar o desenvolvimento deste projeto, numa das vossas disciplinas/clube, envolvendo os alunos no processo de construção.
+
+Para a apresentação do projeto final deverão efetuar a gravação de um pequeno vídeo ou apresentação automática que inclua, obrigatoriamente, os seguintes tópicos:
+
+- Designação do projeto
+- Objetivos do projeto
+- Componentes e materiais utilizados
+- Esquemas de ligação
+- Fases de construção
+- Demonstração
+
+Submeta a hiperligação para o vídeo produzido num ficheiro de texto, o ficheiro com o código desenvolvido (extensão .ino) e outros documentos que necessitou para o desenvolvimento do projeto.
