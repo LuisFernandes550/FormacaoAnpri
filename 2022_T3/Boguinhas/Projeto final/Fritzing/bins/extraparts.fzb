@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Custom1.png">
+    <title>Novo compartimento (1)</title>
+    <instances>
+        <instance moduleIdRef="prefix0000_8b7f36af2ae306c83f0a25dbcbfb94fa_15" modelIndex="85412600" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/prefix0000_8b7f36af2ae306c83f0a25dbcbfb94fa_15.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="OLED 128x64 I2C Monochrome Display_bb571c5409e7e6421c7206ca6943925f_2" modelIndex="85412602" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/OLED 128x64 I2C Monochrome Display_bb571c5409e7e6421c7206ca6943925f_2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="dht11_5d987e30cf4ef1241b7c5716e7278f4c_1" modelIndex="85412619" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/dht11_5d987e30cf4ef1241b7c5716e7278f4c_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="0.91OLED_2ceed26f7c0d4c25e2d8dd3b30444abd_9" modelIndex="85413190" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/0.91OLED_2ceed26f7c0d4c25e2d8dd3b30444abd_9.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="CD4051_b8ac3b9fbfb2d569630b6e79e8dce117_1" modelIndex="85413752" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/CD4051_b8ac3b9fbfb2d569630b6e79e8dce117_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="elechouse_voice_recognition-module-v3_1" modelIndex="85414022" path="C:/Users/Aluno AEMTG -/Documents/Fritzing/parts/user/elechouse_voice_recognition-module-v3_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

@@ -1,0 +1,13 @@
+Programa 1 - "CarroExploradorTHLSAG"
+Foi desenvolvido para ler os sensores* que estão montados no carrinho.
+*T-temperatura; H-humidade; L-luz; S-som; A-nível de líquido e G-gás.
+Os valores lidos são apresentados num LCD.
+
+Programa 2 - "BlueToothLCD-DHT11" Master e Slave
+Foi desenvolvido para testar a comunicação entre dois arduinos via bluetooth, enviando os valores lidos no
+sensor DHT11 no Slave para o Master. No Master, os valores recebidos seriam apresentados no LCD
+
+Pretendia-se melhorar o programa 1, integrando o programa 2-Slave e adicionando a programação de contrlo dos motores por joystick
+Outra possibilidade será substituir o joistick por um seguidor de linha.
+
+Por falta de componentes necessários à conclusão do projeto, não foi possível implementar o comando por joystick
