@@ -1,6 +1,6 @@
 const catalog = window.CATALOG;
 const view = document.getElementById("view");
-const toolbar = document.getElementById("toolbar");
+const search = document.getElementById("q");
 
 const state = {
   query: "",
@@ -8,7 +8,11 @@ const state = {
   video: false,
   code: false,
   text: false,
+  view: "list",
 };
+
+let shownId = "";
+let loadedCode = "";
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -85,27 +89,42 @@ function matches(project) {
   return haystack.includes(query);
 }
 
+function filtered() {
+  return catalog.projects.filter(matches);
+}
+
+function pageFromHash() {
+  const hash = location.hash || "#/";
+  if (hash.startsWith("#/turmas")) return "turmas";
+  if (hash.startsWith("#/sobre")) return "sobre";
+  return "projetos";
+}
+
 function currentId() {
-  const match = location.hash.match(/^#\/p\/([^/]+)$/);
+  const match = location.hash.match(/^#\/p\/([^/?]+)/);
   return match ? decodeURIComponent(match[1]) : "";
 }
 
-function findProject(id) {
-  return catalog.projects.find((project) => project.id === id);
+function isNarrow() {
+  return window.matchMedia("(max-width: 980px)").matches;
 }
 
-function shortEdition(project) {
-  if (project.edition === "drive") return "Drive";
-  if (project.edition === "ligacoes") return "Ligações";
-  return project.edition.replace("_", " ");
-}
-
-function marks(project) {
-  const items = [];
-  if (hasVideo(project)) items.push("vídeo");
-  if (hasSlides(project)) items.push("apresentação");
-  if (project.code.length) items.push("código");
-  return items.join(" · ");
+function icon(name) {
+  const paths = {
+    code: '<path d="M8 8L4 12l4 4M16 8l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
+    play: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.2 8.3v7.4l6.2-3.7z" fill="currentColor"/>',
+    users: '<circle cx="9" cy="9" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="15.5" cy="10" r="1.7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4.8 17.2c.6-2 2.3-3.2 4.2-3.2s3.6 1.2 4.2 3.2M14 14.2c.8-.5 1.8-.7 2.6-.5 1.3.3 2.2 1.4 2.6 2.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
+    video: '<rect x="3.5" y="6.5" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 10.5l5-2.5v8l-5-2.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
+    person: '<circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M6 18.5c.8-2.6 2.8-4 6-4s5.2 1.4 6 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>',
+    screen: '<rect x="4" y="5" width="16" height="11" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9 19.5h6M12 16v3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>',
+    target: '<circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
+    folder: '<path d="M3.5 8.5h6l1.5-2h9.5v11h-17z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
+    external: '<path d="M9 7H6.5A1.5 1.5 0 005 8.5v9A1.5 1.5 0 006.5 19h9a1.5 1.5 0 001.5-1.5V15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 5h7v7M19 5l-8 8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
+    copy: '<rect x="8" y="8" width="10" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M6 15.5H5.5A1.5 1.5 0 014 14V5.5A1.5 1.5 0 015.5 4H14a1.5 1.5 0 011.5 1.5V6" fill="none" stroke="currentColor" stroke-width="1.7"/>',
+    grid: '<rect x="4" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.7"/>',
+    list: '<path d="M8 7h12M8 12h12M8 17h12M4.5 7h.01M4.5 12h.01M4.5 17h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  };
+  return `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">${paths[name] || ""}</svg>`;
 }
 
 function imageScore(image) {
@@ -151,82 +170,183 @@ function hue(project) {
   return [...project.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 360;
 }
 
-function coverTag(project, className, large) {
-  const src = coverUrl(project, large);
+function thumb(project) {
+  const src = coverUrl(project, false);
   if (!src) {
-    return `<span class="${className} cover-fallback" style="--hue:${hue(project)}"><span>${esc(project.title)}</span></span>`;
+    return `<span class="thumb"><span class="fallback" style="--hue:${hue(project)}">${esc(project.title)}</span></span>`;
   }
-  return `<img class="${className}" src="${esc(src)}" alt="" loading="lazy">`;
+  return `<span class="thumb"><img src="${esc(src)}" alt=""></span>`;
 }
 
-function markTags(project) {
+function marks(project) {
   const items = [];
-  if (hasVideo(project)) items.push("Vídeo");
-  if (hasSlides(project)) items.push("Apresentação");
-  if (project.code.length) items.push("Código");
-  return items.map((item) => `<li>${item}</li>`).join("");
+  if (hasVideo(project)) items.push(`<span class="mark" title="Vídeo">${icon("play")}</span>`);
+  if (hasSlides(project)) items.push(`<span class="mark" title="Apresentação">${icon("screen")}</span>`);
+  if (project.code.length) items.push(`<span class="mark" title="Código">${icon("code")}</span>`);
+  return `<span class="marks">${items.join("")}</span>`;
 }
 
-function renderToolbar() {
-  const repoCount = catalog.projects.filter((project) => project.source === "github").length;
-  const withCode = catalog.projects.filter((project) => project.code.length).length;
-  const withVideo = catalog.projects.filter(hasVideo).length;
-  const editionChips = [
-    `<button type="button" class="chip" data-edition="todas" aria-pressed="${state.edition === "todas"}">Todas</button>`,
-    ...catalog.editions.map((edition) => {
-      const pressed = state.edition === edition.id;
-      return `<button type="button" class="chip" data-edition="${esc(edition.id)}" aria-pressed="${pressed}">${esc(edition.label)}</button>`;
-    }),
-  ].join("");
+function authorLine(project, prefix) {
+  if (!project.author) return "";
+  const label = prefix ? `${prefix} ${project.author}` : project.author;
+  return `<p class="author">${icon("person")}<span>${esc(label)}</span></p>`;
+}
 
-  toolbar.innerHTML = `
-    <p class="stats">${repoCount} projetos no repositório · ${withCode} com código · ${withVideo} com vídeo · ${catalog.editions.filter((edition) => edition.id.startsWith("20")).length} turmas</p>
-    <div class="controls">
-      <label class="search">Pesquisar por nome, formando ou objetivo
-        <input id="q" type="search" value="${esc(state.query)}" placeholder="Ex.: estufa, estacionamento, Vera">
-      </label>
-      <div class="chips" role="group" aria-label="Turma">${editionChips}</div>
-      <div class="toggles">
-        <button type="button" class="toggle" data-flag="video" aria-pressed="${state.video}">Com vídeo</button>
-        <button type="button" class="toggle" data-flag="code" aria-pressed="${state.code}">Com código</button>
-        <button type="button" class="toggle" data-flag="text" aria-pressed="${state.text}">Com objetivos</button>
-      </div>
-    </div>
-    <p class="result-line" id="result-line"></p>
-  `;
-  document.getElementById("q").addEventListener("input", (event) => {
-    state.query = event.target.value;
-    if (currentId()) location.hash = "#/";
-    else renderList();
+function go(href) {
+  if (location.hash === href) {
+    render();
+    return;
+  }
+  history.pushState(null, "", href);
+  render();
+}
+
+function syncNav() {
+  const page = pageFromHash();
+  document.querySelectorAll("[data-nav]").forEach((link) => {
+    if (link.dataset.nav === page) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
   });
 }
 
-function renderList() {
-  const projects = catalog.projects.filter(matches);
-  const line = document.getElementById("result-line");
-  if (line) {
-    line.textContent = projects.length === catalog.projects.length
-      ? `${projects.length} projetos`
-      : `${projects.length} de ${catalog.projects.length} projetos`;
-  }
+function heroArt() {
+  return `
+    <svg viewBox="0 0 640 420" role="img" aria-label="">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#7ee7ff" stop-opacity="0.95"/>
+          <stop offset="55%" stop-color="#2f8cff" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#2f8cff" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1c78b8"/>
+          <stop offset="100%" stop-color="#0c4f86"/>
+        </linearGradient>
+        <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur stdDeviation="8"/>
+        </filter>
+      </defs>
+      <ellipse cx="390" cy="210" rx="210" ry="150" fill="url(#glow)" filter="url(#soft)"/>
+      <path d="M80 250c80-90 150-40 210-110" fill="none" stroke="#7ee7ff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+      <path d="M120 300c120-40 180-20 280-130" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+      <g transform="translate(168 78) rotate(-8 180 120)">
+        <rect x="0" y="28" width="360" height="230" rx="16" fill="url(#pcb)" stroke="#9ad7ff" stroke-opacity="0.35"/>
+        <rect x="-18" y="92" width="28" height="58" rx="4" fill="#d7e4ef"/>
+        <rect x="338" y="150" width="34" height="46" rx="6" fill="#c5d4e4"/>
+        <rect x="118" y="78" width="92" height="92" rx="6" fill="#111827"/>
+        <g fill="#d6b25e">
+          ${Array.from({ length: 14 }, (_, i) => `<rect x="${28 + i * 18}" y="40" width="8" height="14" rx="1"/>`).join("")}
+          ${Array.from({ length: 14 }, (_, i) => `<rect x="${28 + i * 18}" y="228" width="8" height="14" rx="1"/>`).join("")}
+        </g>
+        <g fill="#67e8f9">
+          <circle cx="70" cy="150" r="5"/>
+          <circle cx="250" cy="120" r="4"/>
+          <circle cx="286" cy="168" r="4"/>
+        </g>
+        <circle cx="300" cy="70" r="16" fill="#e8eef5" stroke="#94a3b8"/>
+        <text x="168" y="132" text-anchor="middle" fill="#7dd3fc" font-family="Inter, sans-serif" font-size="18" font-weight="700">Arduino</text>
+      </g>
+    </svg>`;
+}
+
+function stats() {
+  const repoCount = catalog.projects.filter((project) => project.source === "github").length;
+  const withCode = catalog.projects.filter((project) => project.code.length).length;
+  const withVideo = catalog.projects.filter(hasVideo).length;
+  const turmas = catalog.editions.filter((edition) => edition.id.startsWith("20")).length;
+  const items = [
+    ["code", repoCount, "Projetos"],
+    ["code", withCode, "Com código"],
+    ["play", withVideo, "Com vídeo"],
+    ["users", turmas, "Turmas"],
+  ];
+  return items.map(([name, value, label]) => `
+    <div class="stat">${icon(name)}<div><strong>${value}</strong><span>${label}</span></div></div>
+  `).join("");
+}
+
+function turmaEditions() {
+  return catalog.editions.filter((edition) => edition.id !== "ligacoes");
+}
+
+function filterBar(count) {
+  const chips = [
+    `<button type="button" class="chip" data-edition="todas" aria-pressed="${state.edition === "todas"}">Todas</button>`,
+    ...turmaEditions().map((edition) => `
+      <button type="button" class="chip" data-edition="${esc(edition.id)}" aria-pressed="${state.edition === edition.id}">${esc(edition.label)}</button>
+    `),
+  ].join("");
+  return `
+    <div class="filter-card">
+      <div class="chips" role="group" aria-label="Turma">${chips}</div>
+      <div class="filter-row">
+        <div class="toggles">
+          <select id="link-filter" class="select" aria-label="Ligações externas">
+            <option value="" ${state.edition === "ligacoes" ? "" : "selected"}>Ligações externas</option>
+            <option value="ligacoes" ${state.edition === "ligacoes" ? "selected" : ""}>Apenas ligações externas</option>
+          </select>
+          <button type="button" class="toggle" data-flag="video" aria-pressed="${state.video}">${icon("play")} Com vídeo</button>
+          <button type="button" class="toggle" data-flag="code" aria-pressed="${state.code}">${icon("code")} Com código</button>
+          <button type="button" class="toggle" data-flag="text" aria-pressed="${state.text}">${icon("target")} Com objetivos</button>
+        </div>
+        <div class="filter-end">
+          <span id="count">${count} projetos</span>
+          <div class="view-switch" role="group" aria-label="Modo de vista">
+            <button type="button" class="view-btn" data-view="grid" aria-pressed="${state.view === "grid"}" title="Grelha">${icon("grid")}</button>
+            <button type="button" class="view-btn" data-view="list" aria-pressed="${state.view === "list"}" title="Lista">${icon("list")}</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function rowHtml(project, selected) {
+  const current = selected && project.id === selected.id ? ' aria-current="true"' : "";
+  return `
+    <a class="row" href="#/p/${encodeURIComponent(project.id)}"${current}>
+      ${thumb(project)}
+      <span class="row-copy">
+        <p class="edition">${esc(project.editionLabel)}</p>
+        <h2>${esc(project.title)}</h2>
+        ${authorLine(project)}
+      </span>
+      ${marks(project)}
+    </a>`;
+}
+
+function cardHtml(project) {
+  return `
+    <a class="card" href="#/p/${encodeURIComponent(project.id)}">
+      ${thumb(project)}
+      <span class="card-copy">
+        <p class="edition">${esc(project.editionLabel)}</p>
+        <h2>${esc(project.title)}</h2>
+        ${authorLine(project)}
+      </span>
+      ${marks(project)}
+    </a>`;
+}
+
+function pick(projects) {
+  const id = currentId();
+  const found = projects.find((project) => project.id === id);
+  if (found) return found;
+  if (isNarrow()) return null;
+  return projects[0] || null;
+}
+
+function paintList(projects, selected) {
+  const list = document.getElementById("list");
+  if (!list) return;
   if (!projects.length) {
-    view.innerHTML = `<p class="empty">Nenhum projeto corresponde a esta pesquisa.</p>`;
+    list.innerHTML = `<p class="empty">Nenhum projeto corresponde a esta pesquisa.</p>`;
     return;
   }
-  view.innerHTML = `<div class="grid">${projects.map((project) => `
-    <a class="card" href="#/p/${encodeURIComponent(project.id)}">
-      <div class="card-media">
-        ${coverTag(project, "card-img", true)}
-        <span class="badge">${esc(project.editionLabel)}</span>
-      </div>
-      <div class="card-body">
-        <h2>${esc(project.title)}</h2>
-        ${project.author ? `<p class="by">${esc(project.author)}</p>` : ""}
-        <ul class="tags">${markTags(project)}</ul>
-      </div>
-    </a>
-  `).join("")}</div>`;
-  document.title = "Catálogo · Programação com Arduinos";
+  if (state.view === "grid") {
+    list.innerHTML = `<div class="card-grid">${projects.map(cardHtml).join("")}</div>`;
+    return;
+  }
+  list.innerHTML = projects.map((project) => rowHtml(project, selected)).join("");
 }
 
 function player(item, label) {
@@ -236,7 +356,7 @@ function player(item, label) {
         <div class="player">
           <iframe src="https://www.youtube-nocookie.com/embed/${esc(item.id)}" title="${esc(label)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
-        <figcaption class="caption"><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(label)}</a></figcaption>
+        <figcaption class="caption">${icon("play")}<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(label)}</a></figcaption>
       </figure>`;
   }
   if (item.kind === "drive") {
@@ -251,7 +371,7 @@ function player(item, label) {
   if (item.kind === "video") {
     const size = formatSize(item.size);
     if (item.size && item.size > 30 * 1024 * 1024) {
-      return `<p><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a> <span class="caption">${esc(size)} · o vídeo é grande e abre no GitHub</span></p>`;
+      return `<p><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a> <span class="note">${esc(size)} · o vídeo é grande e abre no GitHub</span></p>`;
     }
     return `
       <figure class="stack">
@@ -265,105 +385,207 @@ function player(item, label) {
 function fileLink(item) {
   const size = formatSize(item.size);
   const href = item.url || item.rawUrl;
-  return `<li><a href="${esc(href)}" target="_blank" rel="noopener">${esc(item.name)}</a>${size ? ` <span class="caption">${esc(size)}</span>` : ""}</li>`;
+  return `<li><a href="${esc(href)}" target="_blank" rel="noopener">${esc(item.name)}</a>${size ? ` <span class="note">${esc(size)}</span>` : ""}</li>`;
 }
 
 function renderDetail(project) {
+  const detail = document.getElementById("detail");
+  if (!detail || !project) return;
+  if (shownId === project.id && detail.querySelector(".detail-head")) return;
+  shownId = project.id;
+  loadedCode = "";
+
   const slides = project.presentations.filter((item) => item.kind === "slides");
   const pdfs = project.presentations.filter((item) => item.kind === "pdf");
   const links = project.presentations.filter((item) => item.kind === "link");
-  const heroYoutube = project.presentations.find((item) => item.kind === "youtube");
-  const media = project.presentations.filter((item) => {
-    if (heroYoutube && item === heroYoutube) return false;
-    return ["youtube", "drive", "video"].includes(item.kind);
-  });
+  const media = project.presentations.filter((item) => ["youtube", "drive", "video"].includes(item.kind));
   let videoIndex = 0;
   const mediaHtml = media.map((item) => {
     videoIndex += 1;
-    const label = media.length > 1 ? `Vídeo ${videoIndex}` : "Vídeo da apresentação";
+    const label = item.kind === "youtube" && media.filter((entry) => entry.kind === "youtube").length === 1
+      ? "Vídeo da apresentação"
+      : (media.length > 1 ? `Vídeo ${videoIndex}` : "Vídeo da apresentação");
     return player(item, label);
   }).join("");
 
   const textBlocks = [];
   if (project.summary) textBlocks.push(richText(project.summary));
   if (project.objectives) {
-    textBlocks.push(`<h3 class="subhead">Objetivos</h3>${richText(project.objectives)}`);
+    textBlocks.push(`<h4 class="subhead">Objetivos</h4>${richText(project.objectives)}`);
   }
   if (project.resources) {
-    textBlocks.push(`<h3 class="subhead">Recursos</h3>${richText(project.resources)}`);
+    textBlocks.push(`<h4 class="subhead">Recursos</h4>${richText(project.resources)}`);
   }
   const objectivesHtml = textBlocks.length
     ? `<div class="prose">${textBlocks.join("")}</div>`
     : `<p class="note">Os objetivos deste projeto ainda não estão descritos no repositório.</p>`;
 
   const docs = [...slides, ...pdfs, ...(project.documents || [])];
-  const docsHtml = docs.length
-    ? `<h3 class="subhead">Ficheiros da apresentação</h3><ul class="doc-list">${docs.map(fileLink).join("")}</ul>`
-    : "";
+  const docsHtml = docs.length ? `<ul class="doc-list">${docs.map(fileLink).join("")}</ul>` : "";
   const linksHtml = links.length
-    ? `<h3 class="subhead">Ligações</h3><ul class="link-list">${links.map((item) => `<li><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a></li>`).join("")}</ul>`
+    ? `<ul class="link-list">${links.map((item) => `<li><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a></li>`).join("")}</ul>`
     : "";
   const cover = coverUrl(project, true);
   const gallery = (project.images || []).filter((image) => image.cdnUrl !== cover).slice(0, 6);
   const galleryHtml = gallery.length
-    ? `<h3 class="subhead">Imagens</h3><div class="gallery">${gallery.map((image) => `<a href="${esc(image.rawUrl)}" target="_blank" rel="noopener"><img src="${esc(image.cdnUrl)}" alt="${esc(image.name)}"></a>`).join("")}</div>`
+    ? `<div class="gallery">${gallery.map((image) => `<a href="${esc(image.rawUrl)}" target="_blank" rel="noopener"><img src="${esc(image.cdnUrl)}" alt="${esc(image.name)}"></a>`).join("")}</div>`
     : "";
-  const presentationBody = [
-    !heroYoutube && !mediaHtml && !docsHtml && !linksHtml && !galleryHtml
-      ? `<p class="note">Ainda não há apresentação associada a este projeto.</p>`
-      : "",
-    mediaHtml,
-    docsHtml,
-    linksHtml,
-    galleryHtml,
-  ].join("");
+  const presentationBody = [mediaHtml, docsHtml, linksHtml, galleryHtml].filter(Boolean).join("");
+  const presentationHtml = presentationBody
+    ? presentationBody
+    : `<p class="note">Ainda não há apresentação associada a este projeto.</p>`;
 
   const codeHtml = project.code.length
     ? `
-      <div class="code-bar">
-        <div class="code-files" role="tablist">
-          ${project.code.map((file, index) => `<button type="button" class="file-btn" role="tab" data-file="${index}" aria-selected="${index === 0}">${esc(file.name)}</button>`).join("")}
-        </div>
-        <button type="button" class="text-btn" id="copy-code">Copiar</button>
+      <div class="file-tabs" role="tablist">
+        ${project.code.map((file, index) => `<button type="button" class="file-btn" role="tab" data-file="${index}" aria-selected="${index === 0}">${esc(file.name)}</button>`).join("")}
       </div>
-      <pre><code id="code-view" class="language-${esc(project.code[0].language || "cpp")}">A carregar o código…</code></pre>`
+      <div class="codebox"><pre><code id="code-view">A carregar o código…</code></pre></div>`
     : `<p class="note">Ainda não há código deste projeto no repositório. ${project.githubUrl ? `<a href="${esc(project.githubUrl)}" target="_blank" rel="noopener">Abrir a pasta</a>` : ""}</p>`;
 
-  const hero = heroYoutube
-    ? `<div class="hero player"><iframe src="https://www.youtube-nocookie.com/embed/${esc(heroYoutube.id)}" title="${esc(project.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`
-    : coverTag(project, "hero", true);
+  const external = project.githubUrl
+    ? `<a class="gh-link" href="${esc(project.githubUrl)}" target="_blank" rel="noopener">${icon("folder")} Pasta no GitHub ${icon("external")}</a>`
+    : "";
 
-  view.innerHTML = `
-    <article class="project">
-      <a class="back" href="#/">← Voltar ao catálogo</a>
-      ${hero}
-      <header class="project-head">
-        <p class="kicker">${esc(project.editionLabel)}</p>
-        <h1>${esc(project.title)}</h1>
-        <p class="meta">
-          ${project.author ? `<span>${esc(project.author)}</span>` : ""}
-          ${project.githubUrl ? `<a href="${esc(project.githubUrl)}" target="_blank" rel="noopener">Pasta no GitHub</a>` : ""}
-        </p>
-      </header>
-      <section class="section">
-        <h2>Designação e objetivos</h2>
-        ${objectivesHtml}
-      </section>
-      ${presentationBody ? `<section class="section">
-        <h2>Apresentação</h2>
-        <div class="stack">${presentationBody}</div>
-      </section>` : ""}
-      <section class="section">
-        <h2>Código</h2>
-        ${codeHtml}
-      </section>
-    </article>`;
+  detail.innerHTML = `
+    <a class="back" href="#/">← Projetos</a>
+    <header class="detail-head">
+      ${thumb(project)}
+      <div class="detail-copy">
+        <p class="edition">${esc(project.editionLabel)}</p>
+        <h2>${esc(project.title)}</h2>
+        ${authorLine(project, "Formando:")}
+      </div>
+      ${external}
+    </header>
+    <section class="block">
+      <div class="block-head"><h3><span class="ico">${icon("target")}</span> Designação e objetivos</h3></div>
+      ${objectivesHtml}
+    </section>
+    <section class="block">
+      <div class="block-head"><h3><span class="ico">${icon("play")}</span> Apresentação</h3></div>
+      <div class="stack">${presentationHtml}</div>
+    </section>
+    <section class="block">
+      <div class="block-head">
+        <h3><span class="ico">${icon("code")}</span> Código</h3>
+        ${project.code.length ? `<button type="button" class="text-btn" id="copy-code">${icon("copy")} <span>Copiar</span></button>` : ""}
+      </div>
+      ${codeHtml}
+    </section>`;
 
   document.title = `${project.title} · Programação com Arduinos`;
+  document.querySelector(".detail-head")?.scrollIntoView({ block: "nearest" });
   if (project.code.length) loadCode(project, 0);
 }
 
-let loadedCode = "";
+function applyWorkspace(projects, selected) {
+  const workspace = document.querySelector(".workspace");
+  if (!workspace) return;
+  const showDetail = state.view === "list" && Boolean(selected) && (!isNarrow() || Boolean(currentId()));
+  workspace.classList.toggle("is-grid", state.view === "grid");
+  workspace.classList.toggle("has-project", showDetail);
+  paintList(projects, state.view === "list" ? selected : null);
+  const detail = document.getElementById("detail");
+  if (state.view === "grid" || !selected) {
+    if (detail && state.view === "grid") detail.innerHTML = "";
+    if (!selected) {
+      shownId = "";
+      if (detail) detail.innerHTML = "";
+    }
+    document.title = "Catálogo · Programação com Arduinos";
+    return;
+  }
+  renderDetail(selected);
+}
+
+function refreshResults() {
+  const projects = filtered();
+  const count = document.getElementById("count");
+  if (count) count.textContent = `${projects.length} projetos`;
+  const selected = pick(projects);
+  if (selected && selected.id !== currentId() && !isNarrow()) {
+    history.replaceState(null, "", `#/p/${encodeURIComponent(selected.id)}`);
+  }
+  applyWorkspace(projects, selected);
+}
+
+function renderProjetos() {
+  shownId = "";
+  const projects = filtered();
+  view.innerHTML = `
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">PROJETOS DOS FORMANDOS</p>
+          <h1>Programação com <span>Arduinos</span></h1>
+          <p class="hero-lead">Repositório de projetos desenvolvidos pelos formandos, com código, vídeo, apresentação e objetivos.</p>
+          <div class="stats">${stats()}</div>
+        </div>
+        <div class="hero-art">${heroArt()}</div>
+      </div>
+    </section>
+    <div class="wrap panel">
+      ${filterBar(projects.length)}
+      <div class="workspace">
+        <div class="list-pane" id="list"></div>
+        <div class="detail-pane" id="detail"></div>
+      </div>
+    </div>`;
+  applyWorkspace(projects, pick(projects));
+}
+
+function renderTurmas() {
+  shownId = "";
+  document.title = "Turmas · Programação com Arduinos";
+  const cards = catalog.editions.map((edition) => {
+    const projects = catalog.projects.filter((project) => project.edition === edition.id);
+    const withCode = projects.filter((project) => project.code.length).length;
+    return `
+      <a class="turma-card" href="#/" data-edition="${esc(edition.id)}">
+        <strong>${esc(edition.label)}</strong>
+        <p>${projects.length} projetos · ${withCode} com código</p>
+      </a>`;
+  }).join("");
+  view.innerHTML = `
+    <div class="wrap page">
+      <h1>Turmas</h1>
+      <p class="page-lead">Cada turma corresponde a uma edição da formação. Escolhe uma para ver só esses projetos.</p>
+      <div class="turma-grid">${cards}</div>
+    </div>`;
+}
+
+function renderSobre() {
+  shownId = "";
+  document.title = "Sobre o projeto · Programação com Arduinos";
+  const repo = catalog.repoUrl || "https://github.com/LuisFernandes550/FormacaoAnpri";
+  const drive = catalog.driveUrl || "https://drive.google.com/drive/folders/1S66_71QPppwhJrDpkIF-GApYYr0ZmdBV";
+  view.innerHTML = `
+    <div class="wrap page">
+      <h1>Sobre o projeto</h1>
+      <p class="page-lead">Catálogo dos projetos feitos na formação Programação com Arduinos, da ANPRI.</p>
+      <article class="page-card">
+        <h2>O que mostra cada projeto</h2>
+        <p>A designação e os objetivos, quando estão escritos no repositório ou na proposta. A apresentação, em vídeo, diapositivos ou PDF. O código dos sketches que os formandos entregaram.</p>
+      </article>
+      <article class="page-card">
+        <h2>De onde vêm os projetos</h2>
+        <p>Os trabalhos das turmas de 2022 a 2024 estão no <a href="${esc(repo)}" target="_blank" rel="noopener">repositório FormacaoAnpri</a>. Os vídeos e as ligações mais antigas estão na <a href="${esc(drive)}" target="_blank" rel="noopener">pasta do Google Drive</a>.</p>
+      </article>
+    </div>`;
+}
+
+function render() {
+  if (!catalog || !catalog.projects) {
+    view.innerHTML = `<p class="empty">Não foi possível ler o catálogo.</p>`;
+    return;
+  }
+  syncNav();
+  const page = pageFromHash();
+  if (page === "turmas") renderTurmas();
+  else if (page === "sobre") renderSobre();
+  else renderProjetos();
+}
 
 async function loadCode(project, index) {
   const file = project.code[index];
@@ -382,78 +604,109 @@ async function loadCode(project, index) {
     const response = await fetch(file.cdnUrl);
     if (!response.ok) throw new Error(String(response.status));
     loadedCode = await response.text();
-    node.textContent = loadedCode;
-    node.className = `language-${file.language || "cpp"}`;
-    if (window.hljs) window.hljs.highlightElement(node);
+    const language = file.language || "cpp";
+    let html = loadedCode;
+    if (window.hljs) {
+      const result = window.hljs.highlight(loadedCode, { language, ignoreIllegals: true });
+      html = result.value;
+    } else {
+      html = esc(loadedCode);
+    }
+    node.innerHTML = html.split("\n").map((line) => `<span class="ln">${line || " "}</span>`).join("");
+    node.className = `language-${language}`;
   } catch (error) {
     loadedCode = "";
     node.textContent = "Não foi possível mostrar o código nesta página. Abre o ficheiro no GitHub.";
   }
 }
 
-function render() {
-  if (!catalog || !catalog.projects) {
-    view.innerHTML = `<p class="empty">Não foi possível ler o catálogo.</p>`;
+search.addEventListener("input", () => {
+  state.query = search.value;
+  if (pageFromHash() !== "projetos") {
+    go("#/");
     return;
   }
-  const id = currentId();
-  const project = id ? findProject(id) : null;
-  toolbar.hidden = Boolean(project);
-  if (id && !project) {
-    view.innerHTML = `<p class="empty">Este projeto não está no catálogo. <a href="#/">Voltar</a></p>`;
-    return;
-  }
-  if (project) renderDetail(project);
-  else renderList();
-}
-
-toolbar.addEventListener("click", (event) => {
-  const edition = event.target.closest("[data-edition]");
-  if (edition) {
-    state.edition = edition.dataset.edition;
-    renderToolbar();
-    if (currentId()) location.hash = "#/";
-    else renderList();
-    return;
-  }
-  const flag = event.target.closest("[data-flag]");
-  if (flag) {
-    state[flag.dataset.flag] = !state[flag.dataset.flag];
-    renderToolbar();
-    if (currentId()) location.hash = "#/";
-    else renderList();
-  }
+  refreshResults();
 });
 
-view.addEventListener("click", async (event) => {
-  const fileButton = event.target.closest("[data-file]");
-  const project = findProject(currentId());
-  if (fileButton && project) {
-    loadCode(project, Number(fileButton.dataset.file));
+document.addEventListener("click", async (event) => {
+  const nav = event.target.closest("[data-nav]");
+  if (nav) {
+    event.preventDefault();
+    go(nav.getAttribute("href"));
     return;
   }
-  if (event.target.closest("#copy-code") && loadedCode) {
+
+  const fileButton = event.target.closest("[data-file]");
+  if (fileButton) {
+    const project = catalog.projects.find((item) => item.id === shownId);
+    if (project) loadCode(project, Number(fileButton.dataset.file));
+    return;
+  }
+
+  const copy = event.target.closest("#copy-code");
+  if (copy) {
+    if (!loadedCode) return;
     try {
       await navigator.clipboard.writeText(loadedCode);
-      event.target.textContent = "Copiado";
-      setTimeout(() => { event.target.textContent = "Copiar"; }, 1200);
+      const label = copy.querySelector("span");
+      label.textContent = "Copiado";
+      setTimeout(() => { label.textContent = "Copiar"; }, 1200);
     } catch (error) {
-      event.target.textContent = "Não copiou";
+      copy.querySelector("span").textContent = "Não copiou";
     }
+    return;
+  }
+
+  const edition = event.target.closest("button[data-edition]");
+  if (edition) {
+    state.edition = edition.dataset.edition;
+    if (pageFromHash() !== "projetos") go("#/");
+    else render();
+    return;
+  }
+
+  const flag = event.target.closest("[data-flag]");
+  if (flag) {
+    state[flag.dataset.flag] = flag.getAttribute("aria-pressed") !== "true";
+    render();
+    return;
+  }
+
+  const mode = event.target.closest("[data-view]");
+  if (mode) {
+    state.view = mode.dataset.view;
+    if (state.view === "list" && isNarrow() && currentId()) {
+      history.pushState(null, "", "#/");
+    }
+    render();
+    return;
+  }
+
+  const jump = event.target.closest("a[href^='#/']");
+  if (jump && event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+    event.preventDefault();
+    if (jump.dataset.edition) state.edition = jump.dataset.edition;
+    if (state.view === "grid" && jump.classList.contains("card")) state.view = "list";
+    go(jump.getAttribute("href"));
   }
 });
 
-window.addEventListener("hashchange", () => {
+document.addEventListener("change", (event) => {
+  if (event.target.id !== "link-filter") return;
+  if (event.target.value === "ligacoes") state.edition = "ligacoes";
+  else if (state.edition === "ligacoes") state.edition = "todas";
   render();
-  window.scrollTo(0, 0);
 });
 
-if (catalog) {
-  const repo = document.getElementById("repo-link");
-  const drive = document.getElementById("drive-link");
-  if (catalog.repoUrl) repo.href = catalog.repoUrl;
-  if (catalog.driveUrl) drive.href = catalog.driveUrl;
-}
+window.addEventListener("popstate", render);
 
-renderToolbar();
+let resizeTimer = 0;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (pageFromHash() === "projetos" && document.getElementById("list")) refreshResults();
+  }, 150);
+});
+
 render();
