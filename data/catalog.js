@@ -1,0 +1,5831 @@
+window.CATALOG = {
+  "generatedAt": "2026-11-24T19:51:35Z",
+  "training": "Programação com Arduinos",
+  "organization": "ANPRI",
+  "repo": "LuisFernandes550/FormacaoAnpri",
+  "branch": "main",
+  "repoUrl": "https://github.com/LuisFernandes550/FormacaoAnpri",
+  "driveUrl": "https://drive.google.com/drive/folders/1S66_71QPppwhJrDpkIF-GApYYr0ZmdBV",
+  "editions": [
+    {
+      "id": "2022_T1",
+      "label": "2022 · Turma 1"
+    },
+    {
+      "id": "2022_T2",
+      "label": "2022 · Turma 2"
+    },
+    {
+      "id": "2022_T3",
+      "label": "2022 · Turma 3"
+    },
+    {
+      "id": "2023_T1",
+      "label": "2023 · Turma 1"
+    },
+    {
+      "id": "2023_T2",
+      "label": "2023 · Turma 2"
+    },
+    {
+      "id": "2023_T4",
+      "label": "2023 · Turma 4"
+    },
+    {
+      "id": "2024_T2",
+      "label": "2024 · Turma 2"
+    },
+    {
+      "id": "drive",
+      "label": "Vídeos no Drive"
+    },
+    {
+      "id": "ligacoes",
+      "label": "Ligações externas"
+    }
+  ],
+  "projects": [
+    {
+      "id": "2022_T1--candeeiro",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Candeeiro",
+      "author": "Patrícia Jacinto",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Candeeiro",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Candeeiro",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "csgLFkZXC84",
+          "url": "https://youtu.be/csgLFkZXC84"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Candeeiro.ino",
+          "path": "2022_T1/Candeeiro/Candeeiro.ino",
+          "size": 3341,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Candeeiro/Candeeiro.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Candeeiro/Candeeiro.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Candeeiro/Candeeiro.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--controloporta",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Controlo de Porta",
+      "author": "Miguel Ferreira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/ControloPorta",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/ControloPorta",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "ffmIoteQwrw",
+          "url": "https://youtu.be/ffmIoteQwrw"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ControloPorta.ino",
+          "path": "2022_T1/ControloPorta/ControloPorta.ino",
+          "size": 5343,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/ControloPorta/ControloPorta.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/ControloPorta/ControloPorta.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/ControloPorta/ControloPorta.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--corridaleds",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Corrida de Leds",
+      "author": "Clara Anunciação",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/CorridaLeds",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/CorridaLeds",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "wfZYiOxqCjE",
+          "url": "https://youtu.be/wfZYiOxqCjE"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "CorridaLeds.ino",
+          "path": "2022_T1/CorridaLeds/CorridaLeds.ino",
+          "size": 13420,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/CorridaLeds/CorridaLeds.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/CorridaLeds/CorridaLeds.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/CorridaLeds/CorridaLeds.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--estacao-meteorologica",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Estação Metereológica",
+      "author": "Jorge Pereira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Estação meteorológica",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica",
+      "presentations": [
+        {
+          "name": "Projeto_Arduíno_final.pdf",
+          "path": "2022_T1/Estação meteorológica/Projeto_Arduíno_final.pdf",
+          "size": 1200585,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projeto_Ardu%C3%ADno_final.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projeto_Ardu%C3%ADno_final.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projeto_Ardu%C3%ADno_final.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "Vista 3D da caixa.mp4",
+          "path": "2022_T1/Estação meteorológica/Vista 3D da caixa.mp4",
+          "size": 41713129,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Vista%203D%20da%20caixa.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Vista%203D%20da%20caixa.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Vista%203D%20da%20caixa.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projetofinal_Sensor_Humidade_Terra_v2.ino",
+          "path": "2022_T1/Estação meteorológica/Projetofinal_Sensor_Humidade_Terra_v2/Projetofinal_Sensor_Humidade_Terra_v2.ino",
+          "size": 2001,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projetofinal_Sensor_Humidade_Terra_v2/Projetofinal_Sensor_Humidade_Terra_v2.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projetofinal_Sensor_Humidade_Terra_v2/Projetofinal_Sensor_Humidade_Terra_v2.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Projetofinal_Sensor_Humidade_Terra_v2/Projetofinal_Sensor_Humidade_Terra_v2.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Fase 1.png",
+          "path": "2022_T1/Estação meteorológica/Fase 1.png",
+          "size": 80324,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%201.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%201.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%201.png"
+        },
+        {
+          "name": "Fase 4.png",
+          "path": "2022_T1/Estação meteorológica/Fase 4.png",
+          "size": 109223,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%204.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%204.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase%204.png"
+        },
+        {
+          "name": "Fase2.png",
+          "path": "2022_T1/Estação meteorológica/Fase2.png",
+          "size": 82918,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase2.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase2.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase2.png"
+        },
+        {
+          "name": "Fase3.png",
+          "path": "2022_T1/Estação meteorológica/Fase3.png",
+          "size": 90067,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase3.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase3.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase3.png"
+        },
+        {
+          "name": "Fase5.png",
+          "path": "2022_T1/Estação meteorológica/Fase5.png",
+          "size": 154772,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase5.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase5.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase5.png"
+        },
+        {
+          "name": "Fase6.png",
+          "path": "2022_T1/Estação meteorológica/Fase6.png",
+          "size": 166322,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase6.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase6.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Esta%C3%A7%C3%A3o%20meteorol%C3%B3gica/Fase6.png"
+        }
+      ]
+    },
+    {
+      "id": "2022_T1--jogomemoria",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Jogo da Memória",
+      "author": "Ana Isabel Santos",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/JogoMemória",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/JogoMem%C3%B3ria",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "kRShIfrXS2U",
+          "url": "https://youtu.be/kRShIfrXS2U"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "JogoMemoria.ino",
+          "path": "2022_T1/JogoMemória/JogoMemoria.ino",
+          "size": 4461,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "JogoMemoria.png",
+          "path": "2022_T1/JogoMemória/JogoMemoria.png",
+          "size": 154516,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/JogoMem%C3%B3ria/JogoMemoria.png"
+        }
+      ]
+    },
+    {
+      "id": "2022_T1--luzesnatal",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Luzes de Natal",
+      "author": "Ana Gregório",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/LuzesNatal",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/LuzesNatal",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "yZ2aK1tW1qA",
+          "url": "https://youtu.be/yZ2aK1tW1qA"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "LuzesNatal.ino",
+          "path": "2022_T1/LuzesNatal/LuzesNatal.ino",
+          "size": 2072,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/LuzesNatal/LuzesNatal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/LuzesNatal/LuzesNatal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/LuzesNatal/LuzesNatal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Esquema de Ligação.JPG",
+          "path": "2022_T1/LuzesNatal/Esquema de Ligação.JPG",
+          "size": 62627,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/LuzesNatal/Esquema%20de%20Liga%C3%A7%C3%A3o.JPG",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/LuzesNatal/Esquema%20de%20Liga%C3%A7%C3%A3o.JPG",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/LuzesNatal/Esquema%20de%20Liga%C3%A7%C3%A3o.JPG"
+        }
+      ]
+    },
+    {
+      "id": "2022_T1--matrizleds",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Matriz de Leds",
+      "author": "Nuno Brites",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/MatrizLeds",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/MatrizLeds",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "MfoyQt21GnI",
+          "url": "https://youtu.be/MfoyQt21GnI"
+        },
+        {
+          "name": "Componentes_Materiais_Utilizados.pdf",
+          "path": "2022_T1/MatrizLeds/Componentes_Materiais_Utilizados.pdf",
+          "size": 163138,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/MatrizLeds/Componentes_Materiais_Utilizados.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/MatrizLeds/Componentes_Materiais_Utilizados.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/MatrizLeds/Componentes_Materiais_Utilizados.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_Final_MatrizLed8x8.ino",
+          "path": "2022_T1/MatrizLeds/Projeto_Final_MatrizLed8x8.ino",
+          "size": 4225,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/MatrizLeds/Projeto_Final_MatrizLed8x8.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/MatrizLeds/Projeto_Final_MatrizLed8x8.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/MatrizLeds/Projeto_Final_MatrizLed8x8.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Esquema_Ligacoes_MatrizLed8x8.jpg",
+          "path": "2022_T1/MatrizLeds/Esquema_Ligacoes_MatrizLed8x8.jpg",
+          "size": 1537519,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/MatrizLeds/Esquema_Ligacoes_MatrizLed8x8.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/MatrizLeds/Esquema_Ligacoes_MatrizLed8x8.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/MatrizLeds/Esquema_Ligacoes_MatrizLed8x8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2022_T1--mouserobot",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Mouse Robot",
+      "author": "Fernando Faísca",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/MouseRobot",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/MouseRobot",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "uTulI6ALykE",
+          "url": "https://youtu.be/uTulI6ALykE"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "RobotMouse_Code_2022.ino",
+          "path": "2022_T1/MouseRobot/RobotMouse_Code_2022.ino",
+          "size": 8620,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/MouseRobot/RobotMouse_Code_2022.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/MouseRobot/RobotMouse_Code_2022.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/MouseRobot/RobotMouse_Code_2022.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--pinheironatal",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Pinheiro de Natal",
+      "author": "Isabel Maia",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/PinheiroNatal",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/PinheiroNatal",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "OmKxEA1DUN0",
+          "url": "https://youtu.be/OmKxEA1DUN0"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "PinheiroNatal.ino",
+          "path": "2022_T1/PinheiroNatal/PinheiroNatal.ino",
+          "size": 6391,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/PinheiroNatal/PinheiroNatal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/PinheiroNatal/PinheiroNatal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/PinheiroNatal/PinheiroNatal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--planta-inteligente",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Planta inteligente",
+      "author": "Sílvia Gomes",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Planta inteligente",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Planta%20inteligente",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "4l0abUpAK84",
+          "url": "https://youtu.be/4l0abUpAK84"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": []
+    },
+    {
+      "id": "2022_T1--robo",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Robô",
+      "author": "Sandra Monteiro",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Robô",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Rob%C3%B4",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "Wil3rc9AURU",
+          "url": "https://youtu.be/Wil3rc9AURU"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto.ino",
+          "path": "2022_T1/Robô/Projeto.ino",
+          "size": 2615,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Rob%C3%B4/Projeto.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Rob%C3%B4/Projeto.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Rob%C3%B4/Projeto.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--semafororega",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Semáforo da Rega",
+      "author": "Luísa Rodrigues",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/SemaforoRega",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/SemaforoRega",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "AhnDsA7N5bo",
+          "url": "https://youtu.be/AhnDsA7N5bo"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "SemaforoRega.ino",
+          "path": "2022_T1/SemaforoRega/SemaforoRega.ino",
+          "size": 2309,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/SemaforoRega/SemaforoRega.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/SemaforoRega/SemaforoRega.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/SemaforoRega/SemaforoRega.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--sensor-de-estacionamento",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Sensor de estacionamento",
+      "author": "Margarida Gonçalves",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Sensor de estacionamento",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Sensor%20de%20estacionamento",
+      "presentations": [
+        {
+          "name": "Projeto_Arduíno.pdf",
+          "path": "2022_T1/Sensor de estacionamento/Projeto_Arduíno.pdf",
+          "size": 826330,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Sensor%20de%20estacionamento/Projeto_Ardu%C3%ADno.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Sensor%20de%20estacionamento/Projeto_Ardu%C3%ADno.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Sensor%20de%20estacionamento/Projeto_Ardu%C3%ADno.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "VID_20221215_165534.mp4",
+          "path": "2022_T1/Sensor de estacionamento/VID_20221215_165534.mp4",
+          "size": 49016542,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Sensor%20de%20estacionamento/VID_20221215_165534.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Sensor%20de%20estacionamento/VID_20221215_165534.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Sensor%20de%20estacionamento/VID_20221215_165534.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [
+        {
+          "name": "IMG_20221215_165252.jpg",
+          "path": "2022_T1/Sensor de estacionamento/IMG_20221215_165252.jpg",
+          "size": 2309737,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Sensor%20de%20estacionamento/IMG_20221215_165252.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Sensor%20de%20estacionamento/IMG_20221215_165252.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Sensor%20de%20estacionamento/IMG_20221215_165252.jpg"
+        },
+        {
+          "name": "circuito.png",
+          "path": "2022_T1/Sensor de estacionamento/circuito.png",
+          "size": 226365,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Sensor%20de%20estacionamento/circuito.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Sensor%20de%20estacionamento/circuito.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Sensor%20de%20estacionamento/circuito.png"
+        },
+        {
+          "name": "peças produzidas em 3D.png",
+          "path": "2022_T1/Sensor de estacionamento/peças produzidas em 3D.png",
+          "size": 394443,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Sensor%20de%20estacionamento/pe%C3%A7as%20produzidas%20em%203D.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Sensor%20de%20estacionamento/pe%C3%A7as%20produzidas%20em%203D.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Sensor%20de%20estacionamento/pe%C3%A7as%20produzidas%20em%203D.png"
+        }
+      ]
+    },
+    {
+      "id": "2022_T1--smart-room",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Smart Room",
+      "author": "Elsa Brito",
+      "summary": "Descrição Sumária do projeto Smart Room\nSimulador em maquete para Controle de entradas numa sala de eventos\nAtravés de um sensor de deteção de gestos | movimento colocado na porta à entrada da sala de eventos ( criada numa maqueta, construída para o efeito) deteta-se a entrada de pessoas nesse espaço. A saída de pessoas da sala também é detetada e o número de ocupantes do espaço está disponível num display interior, disponibilizando ainda informação sobre se existem ou não de pessoas há entrada, informação conseguida pela deteção ocorrida por um sensor de ultrasom, colocado no hall de entrada. Num display exterior é mostrada a informação sobre o evento que ocorre e indicado o número de pessoas que ainda poderão entrar na sala, isto se o limite da sala ainda não estiver sido atingido.\nNo interior da sala e no espaço de entrada o sistema de iluminação, lâmpada e led RGB respetivamente, ativam-se se existirem pessoas nessa localização e desligam-se quando não estiver ninguém nessa área.\nPara auxiliar a comunicação com os visitantes, fora da sala estão duas luzes de controle, leds, um de luz verde para indicar que há permissão de entrada e o outro de luz vermelha para indicar a lotação completa, complementam-se com a mensagem de bem-vindos ou para aguardar, conforme esteja a ocupação da sala, limite atingido ou não.\nO projeto foi planeado por forma a poder expandir com a colocação de mais sensores de acordo com o que for identificado pelos alunos, futuros utilizadores deste recurso, no seu processo de experimentação e aprendizagem com esta tecnologia.",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/Smart Room",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/Smart%20Room",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "5qcXhc3sBZs",
+          "url": "https://youtu.be/5qcXhc3sBZs"
+        },
+        {
+          "name": "Apresentação_SmartRoom.pdf",
+          "path": "2022_T1/Smart Room/Diversos/Apresentação_SmartRoom.pdf",
+          "size": 2854691,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Smart%20Room/Diversos/Apresenta%C3%A7%C3%A3o_SmartRoom.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Smart%20Room/Diversos/Apresenta%C3%A7%C3%A3o_SmartRoom.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Smart%20Room/Diversos/Apresenta%C3%A7%C3%A3o_SmartRoom.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Compontes Projeto Smart Room.docx",
+          "path": "2022_T1/Smart Room/Diversos/Compontes Projeto Smart Room.docx",
+          "size": 848640,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Smart%20Room/Diversos/Compontes%20Projeto%20Smart%20Room.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Smart%20Room/Diversos/Compontes%20Projeto%20Smart%20Room.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Smart%20Room/Diversos/Compontes%20Projeto%20Smart%20Room.docx",
+          "kind": "document"
+        },
+        {
+          "name": "Descrição do Projeto.docx",
+          "path": "2022_T1/Smart Room/Diversos/Descrição do Projeto.docx",
+          "size": 266408,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Smart%20Room/Diversos/Descri%C3%A7%C3%A3o%20do%20Projeto.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Smart%20Room/Diversos/Descri%C3%A7%C3%A3o%20do%20Projeto.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Smart%20Room/Diversos/Descri%C3%A7%C3%A3o%20do%20Projeto.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "Projeto_ElsaBrito.ino",
+          "path": "2022_T1/Smart Room/Código/Projeto_ElsaBrito.ino",
+          "size": 5997,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/Smart%20Room/C%C3%B3digo/Projeto_ElsaBrito.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/Smart%20Room/C%C3%B3digo/Projeto_ElsaBrito.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/Smart%20Room/C%C3%B3digo/Projeto_ElsaBrito.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--sphericalparallelactuator",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Spherical Parallel Actuator",
+      "author": "Nuno Martins",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/SphericalParallelActuator",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/SphericalParallelActuator",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "nfR_KYJodec",
+          "url": "https://youtu.be/nfR_KYJodec"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "SphericalParallelActuator.ino",
+          "path": "2022_T1/SphericalParallelActuator/SphericalParallelActuator.ino",
+          "size": 4539,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/SphericalParallelActuator/SphericalParallelActuator.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/SphericalParallelActuator/SphericalParallelActuator.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/SphericalParallelActuator/SphericalParallelActuator.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--stopledgame",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Stop Led Game",
+      "author": "Alexandra Carvalho",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/STOPLedGame",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/STOPLedGame",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "8551Rd_OpF8",
+          "url": "https://youtu.be/8551Rd_OpF8"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "STOP_LedGame_VF.ino",
+          "path": "2022_T1/STOPLedGame/STOP_LedGame_VF.ino",
+          "size": 6263,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/STOPLedGame/STOP_LedGame_VF.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/STOPLedGame/STOP_LedGame_VF.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/STOPLedGame/STOP_LedGame_VF.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T1--ventoinhasensortemperatura",
+      "source": "github",
+      "edition": "2022_T1",
+      "editionLabel": "2022 · Turma 1",
+      "title": "Ventoinha controlada por Sensor de Temperatura",
+      "author": "Nina Custódio",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T1/VentoinhaSensorTemperatura",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T1/VentoinhaSensorTemperatura",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "a4ip0QrxyyA",
+          "url": "https://youtu.be/a4ip0QrxyyA"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ProjetoFinal.ino",
+          "path": "2022_T1/VentoinhaSensorTemperatura/ProjetoFinal.ino",
+          "size": 1539,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T1/VentoinhaSensorTemperatura/ProjetoFinal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T1/VentoinhaSensorTemperatura/ProjetoFinal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T1/VentoinhaSensorTemperatura/ProjetoFinal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T2--arduinowatercontrolsystem",
+      "source": "github",
+      "edition": "2022_T2",
+      "editionLabel": "2022 · Turma 2",
+      "title": "Arduino Water Control System",
+      "author": "Elmano Campina",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T2/ArduinoWaterControlSystem",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T2/ArduinoWaterControlSystem",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "kEitlEcUWfY",
+          "url": "https://youtu.be/kEitlEcUWfY"
+        },
+        {
+          "name": "Arduino Water Control System.mp4",
+          "path": "2022_T2/ArduinoWaterControlSystem/Arduino Water Control System.mp4",
+          "size": 56554247,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T2/ArduinoWaterControlSystem/Arduino%20Water%20Control%20System.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T2/ArduinoWaterControlSystem/Arduino%20Water%20Control%20System.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T2/ArduinoWaterControlSystem/Arduino%20Water%20Control%20System.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ArduinoWaterControlSystem.ino",
+          "path": "2022_T2/ArduinoWaterControlSystem/ArduinoWaterControlSystem.ino",
+          "size": 1686,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T2/ArduinoWaterControlSystem/ArduinoWaterControlSystem.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T2/ArduinoWaterControlSystem/ArduinoWaterControlSystem.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T2/ArduinoWaterControlSystem/ArduinoWaterControlSystem.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T2--persianaautomatica",
+      "source": "github",
+      "edition": "2022_T2",
+      "editionLabel": "2022 · Turma 2",
+      "title": "Arduino. Persiana automatica",
+      "author": "",
+      "summary": "",
+      "objectives": "Neste projeto, pretende-se implementar um sistema de controlo automático para persianas. O sistema irá abrir ou fechar a persiana, consoante a intensidade de luz no exterior de uma habitação. Basicamente, durante a noite a persiana estará fechada e durante o dia estará aberta. Será possível alternar entre o modo manual e o modo automático. No display é possível ver o modo selecionado, assim como a distância entre a persiana e o sensor de ultrasons.\n\nVídeo 1 - montagem do circuito [https://youtu.be/r3TXRm8Rcc]\n\nVídeo 2 - construção da maquete [https://youtu.be/ke80WIpxoxc]\n\nVídeo 3 - produto final [https://youtu.be/7Uv9dVH4]",
+      "objectivesSource": "readme",
+      "resources": "",
+      "folder": "2022_T2/PersianaAutomatica",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T2/PersianaAutomatica",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "7_Uv_9dV_H4",
+          "url": "https://youtu.be/7_Uv_9dV_H4"
+        },
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "ke80WIpxoxc",
+          "url": "https://youtu.be/ke80WIpxoxc"
+        },
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "_r3TXRm8Rcc",
+          "url": "https://youtu.be/_r3TXRm8Rcc"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "PersianaAutomatica.ino",
+          "path": "2022_T2/PersianaAutomatica/PersianaAutomatica.ino",
+          "size": 5690,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T2/PersianaAutomatica/PersianaAutomatica.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T2/PersianaAutomatica/PersianaAutomatica.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T2/PersianaAutomatica/PersianaAutomatica.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "esquema_bb - comn legenda.png",
+          "path": "2022_T2/PersianaAutomatica/Esquemas/esquema_bb - comn legenda.png",
+          "size": 432171,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb%20-%20comn%20legenda.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb%20-%20comn%20legenda.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb%20-%20comn%20legenda.png"
+        },
+        {
+          "name": "esquema_bb.png",
+          "path": "2022_T2/PersianaAutomatica/Esquemas/esquema_bb.png",
+          "size": 579637,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T2/PersianaAutomatica/Esquemas/esquema_bb.png"
+        }
+      ]
+    },
+    {
+      "id": "2022_T3--boguinhas",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Boguinhas",
+      "author": "Raquel Mesquita",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Boguinhas",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Boguinhas",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "t2nylJp7nC8",
+          "url": "https://youtu.be/t2nylJp7nC8"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "proj_final.ino",
+          "path": "2022_T3/Boguinhas/Projeto final/proj_final/proj_final.ino",
+          "size": 12348,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Boguinhas/Projeto%20final/proj_final/proj_final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Boguinhas/Projeto%20final/proj_final/proj_final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Boguinhas/Projeto%20final/proj_final/proj_final.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "logos.h",
+          "path": "2022_T3/Boguinhas/Projeto final/proj_final/logos.h",
+          "size": 10260,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Boguinhas/Projeto%20final/proj_final/logos.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Boguinhas/Projeto%20final/proj_final/logos.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Boguinhas/Projeto%20final/proj_final/logos.h",
+          "language": "cpp",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--braga-parque",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Braga Parque",
+      "author": "Luís Santos",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Braga Parque",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Braga%20Parque",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "r5OiVEl16dc",
+          "url": "https://youtu.be/r5OiVEl16dc"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Braga_Parque.ino",
+          "path": "2022_T3/Braga Parque/Braga_Parque.ino",
+          "size": 2637,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Braga%20Parque/Braga_Parque.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Braga%20Parque/Braga_Parque.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Braga%20Parque/Braga_Parque.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Braga Parque-Esquema.jpg",
+          "path": "2022_T3/Braga Parque/Braga Parque-Esquema.jpg",
+          "size": 211636,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Braga%20Parque/Braga%20Parque-Esquema.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Braga%20Parque/Braga%20Parque-Esquema.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Braga%20Parque/Braga%20Parque-Esquema.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2022_T3--cancela-automatica",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Cancela Automática",
+      "author": "Carla Ladeiro",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Cancela Automática",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Cancela%20Autom%C3%A1tica",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "vpPuIs0-N_k",
+          "url": "https://youtu.be/vpPuIs0-N_k"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Programação.ino",
+          "path": "2022_T3/Cancela Automática/Programação.ino",
+          "size": 2110,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Cancela%20Autom%C3%A1tica/Programa%C3%A7%C3%A3o.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Cancela%20Autom%C3%A1tica/Programa%C3%A7%C3%A3o.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Cancela%20Autom%C3%A1tica/Programa%C3%A7%C3%A3o.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--carro-controlado-por-telemovel-via-bluetooth",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Carro controlado por telemóvel via bluetooth",
+      "author": "Pedro Gonçalves",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Carro controlado por telemóvel via Bluetooth",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Carro%20controlado%20por%20telem%C3%B3vel%20via%20Bluetooth",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "UEci9JT-AG4",
+          "url": "https://youtu.be/UEci9JT-AG4"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "projeto_final.ino",
+          "path": "2022_T3/Carro controlado por telemóvel via Bluetooth/projeto_final/projeto_final.ino",
+          "size": 2469,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Carro%20controlado%20por%20telem%C3%B3vel%20via%20Bluetooth/projeto_final/projeto_final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Carro%20controlado%20por%20telem%C3%B3vel%20via%20Bluetooth/projeto_final/projeto_final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Carro%20controlado%20por%20telem%C3%B3vel%20via%20Bluetooth/projeto_final/projeto_final.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--dispensador-de-comida-para-gato",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Dispensador de Comida para Gato",
+      "author": "Ricardo Sérgio",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Dispensador de Comida para Gato",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Dispensador%20de%20Comida%20para%20Gato",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "tiEFMun2F5k",
+          "url": "https://youtu.be/tiEFMun2F5k"
+        },
+        {
+          "name": "Modelo Proposta de Projeto.pdf",
+          "path": "2022_T3/Dispensador de Comida para Gato/Modelo Proposta de Projeto.pdf",
+          "size": 218401,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Modelo%20Proposta%20de%20Projeto.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Modelo%20Proposta%20de%20Projeto.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Modelo%20Proposta%20de%20Projeto.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto.ino",
+          "path": "2022_T3/Dispensador de Comida para Gato/Projeto/Projeto.ino",
+          "size": 3745,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Projeto/Projeto.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Projeto/Projeto.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Dispensador%20de%20Comida%20para%20Gato/Projeto/Projeto.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--elevacao-de-plataforma-de-paineis-solares",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Elevação de Plataforma de Painéis Solares",
+      "author": "Pedro Pereira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Elevação de Plataforma de Painéis Solares",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Eleva%C3%A7%C3%A3o%20de%20Plataforma%20de%20Pain%C3%A9is%20Solares",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "005Rj0bIh0E",
+          "url": "https://youtu.be/005Rj0bIh0E"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "plataforma.ino",
+          "path": "2022_T3/Elevação de Plataforma de Painéis Solares/plataforma.ino",
+          "size": 3303,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Eleva%C3%A7%C3%A3o%20de%20Plataforma%20de%20Pain%C3%A9is%20Solares/plataforma.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Eleva%C3%A7%C3%A3o%20de%20Plataforma%20de%20Pain%C3%A9is%20Solares/plataforma.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Eleva%C3%A7%C3%A3o%20de%20Plataforma%20de%20Pain%C3%A9is%20Solares/plataforma.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--estacao-meteorologica-v1",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Estação Meteorológica V1 (Online e local em Esp 32)",
+      "author": "António Guerreiro",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Estação Meteorológica V1",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "_eW9tUo7FWM",
+          "url": "https://youtu.be/_eW9tUo7FWM"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Final.ino",
+          "path": "2022_T3/Estação Meteorológica V1/Final.ino",
+          "size": 47011,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Final.ino",
+          "path": "2022_T3/Estação Meteorológica V1/Final/Final.ino",
+          "size": 47011,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final/Final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final/Final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Final/Final.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "OLEDDISPLAY.ino",
+          "path": "2022_T3/Estação Meteorológica V1/OLEDDISPLAY/OLEDDISPLAY.ino",
+          "size": 33456,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/OLEDDISPLAY/OLEDDISPLAY.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/OLEDDISPLAY/OLEDDISPLAY.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/OLEDDISPLAY/OLEDDISPLAY.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "SENSORBMP280.ino",
+          "path": "2022_T3/Estação Meteorológica V1/SENSOR_BMP280/SENSORBMP280.ino",
+          "size": 1567,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/SENSOR_BMP280/SENSORBMP280.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/SENSOR_BMP280/SENSORBMP280.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/SENSOR_BMP280/SENSORBMP280.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "DHT11.ino",
+          "path": "2022_T3/Estação Meteorológica V1/Sensor_DHT11/DHT11.ino",
+          "size": 2678,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_DHT11/DHT11.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_DHT11/DHT11.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_DHT11/DHT11.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "WEATHERONLINEOLED.ino",
+          "path": "2022_T3/Estação Meteorológica V1/WEATHERONLINEOLED/WEATHERONLINEOLED.ino",
+          "size": 34646,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEATHERONLINEOLED/WEATHERONLINEOLED.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEATHERONLINEOLED/WEATHERONLINEOLED.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEATHERONLINEOLED/WEATHERONLINEOLED.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "WEbPagaDAta2.ino",
+          "path": "2022_T3/Estação Meteorológica V1/WEbPagaDAta2/WEbPagaDAta2.ino",
+          "size": 6759,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEbPagaDAta2/WEbPagaDAta2.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEbPagaDAta2/WEbPagaDAta2.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/WEbPagaDAta2/WEbPagaDAta2.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "SensorBH1750.ino",
+          "path": "2022_T3/Estação Meteorológica V1/Sensor_BH1750/SensorBH1750/SensorBH1750.ino",
+          "size": 750,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_BH1750/SensorBH1750/SensorBH1750.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_BH1750/SensorBH1750/SensorBH1750.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Esta%C3%A7%C3%A3o%20Meteorol%C3%B3gica%20V1/Sensor_BH1750/SensorBH1750/SensorBH1750.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--maquina-enchimento-automatico-de-copos",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Máquina Enchimento Automático de Copos",
+      "author": "Mateus Silva",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Máquina Enchimento Automático de Copos",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/M%C3%A1quina%20Enchimento%20Autom%C3%A1tico%20de%20Copos",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "NgCe0KhcBbI",
+          "url": "https://youtu.be/NgCe0KhcBbI"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": []
+    },
+    {
+      "id": "2022_T3--robo-controlado-por-app",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Robô Controlado por App Android",
+      "author": "José Cerqueira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Robô controlado por App",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Rob%C3%B4%20controlado%20por%20App",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "kODXp7NnkGs",
+          "url": "https://youtu.be/kODXp7NnkGs"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_Final_Robo.ino",
+          "path": "2022_T3/Robô controlado por App/Projeto_Final_Robo.ino",
+          "size": 6017,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20controlado%20por%20App/Projeto_Final_Robo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20controlado%20por%20App/Projeto_Final_Robo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20controlado%20por%20App/Projeto_Final_Robo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2022_T3--robo-explorador",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Robô Explorador",
+      "author": "Maria Ribeiro",
+      "summary": "Conjugação de conhecimentos envolvendo mecânica (construção de um carrinho), a utilização de diferentes componentes eletrónicos e a sua programação.\nA ser implementado no Clube de Programação e Robótica como trabalho de final, depois de terem sido realizados pequenos projetos envolvendo leds, sensores, Bluetooth e comando de carros.",
+      "objectives": "Implementar um carro com duas rodas acionadas por motores DC cujo movimento seja controlado à distância para inspecionar ambientes potencialmente perigosos comunicando via Bluetooth os valores lidos.\nEsse carro deverá ser construído de modo a poder sustentar um Arduino Uno com uma shield de motores e uma breadboard de 400 pontos, onde estarão ligados os seguintes componentes: módulo Bluetooth; sensor temperatura e humidade, sensor de luz, sensor de som; sensor de nível de água* e sensor gás.\nPoderá ser adquirida uma estrutura pronta a usar, mas será valorizada uma idealizada pelos elementos do grupo.\nJunto do operador, deverá ser implementado um circuito numa breadboard de 800 pontos, com um Arduino Nano, módulo Bluetooth, leds, display de cristal líquido 16x2 e um buzzer.\nNo display serão apresentados os valores lidos nos sensores (temperatura, humidade, intensidade de luz, intensidade do som, nível de água e valor de um (ou mais) dos gases detetados pelo sensor.\nOs leds acenderão em função de valores considerados normais (verde), elevados (amarelo) e muito elevados (vermelho).\nSe um dos valores lidos for considerado crítico (ambiente for muito adverso), o led vermelho piscará, o buzzer emitirá um som intermitente e o carro parará e só voltará a obedecer aos comandos se estes se iniciarem com a ordem de inversão de marcha.\n* O sensor de nível de água deve ser instalado de modo a ficar na vertical e na lateral do carro, o mais perto possível do solo.",
+      "objectivesSource": "proposta",
+      "resources": "Sugestões de consulta para comunicação entre Bluetooth\nhttps://www.youtube.com/watch?v=I2qFXSe0W3w\nhttps://www.youtube.com/watch?v=afGxMfy7_0A\nhttps://www.youtube.com/watch?v=mC8HDjRdcso\n1 Arduino Uno\n211455367600\n1 Arduino Nano\n2 módulos Bluetooth HC05\n1 Ponte Adafruit Motor Shield\n2 motores DC com rodas acopladas\nLCD 16x2\nBreadboard 400 pontos\nBreadboard 800 pontos\nLeds (verde, amarelo e vermelho)\nResistências 220 Ohm\nResistências 1k Ohm e\nResistências 10 K Ohm\nJumpers MF MM\nSensor de temperatura e humidade DHT11\nSensor de luz ambiente analógico\nMódulo detetor de som\nSensor de nível de água\nMódulo sensor analógico de gás inflamável e de fumo (MQ-2)\nBuzzer\nPilhas 4x1,5V",
+      "folder": "2022_T3/Robô Explorador",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Rob%C3%B4%20Explorador",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "ryFX_Ne4b3Y",
+          "url": "https://youtu.be/ryFX_Ne4b3Y"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Proposta de Projeto-MariaRibeiro.docx",
+          "path": "2022_T3/Robô Explorador/Proposta de Projeto-MariaRibeiro.docx",
+          "size": 976040,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/Proposta%20de%20Projeto-MariaRibeiro.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/Proposta%20de%20Projeto-MariaRibeiro.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/Proposta%20de%20Projeto-MariaRibeiro.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "CarroExplorador-THLSAG.ino",
+          "path": "2022_T3/Robô Explorador/Programas/CarroExplorador-THLSAG/CarroExplorador-THLSAG.ino",
+          "size": 5123,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/Programas/CarroExplorador-THLSAG/CarroExplorador-THLSAG.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/Programas/CarroExplorador-THLSAG/CarroExplorador-THLSAG.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/Programas/CarroExplorador-THLSAG/CarroExplorador-THLSAG.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "BluetoothMaster.ino",
+          "path": "2022_T3/Robô Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothMaster/BluetoothMaster.ino",
+          "size": 1497,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothMaster/BluetoothMaster.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothMaster/BluetoothMaster.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothMaster/BluetoothMaster.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "BluetoothSlave.ino",
+          "path": "2022_T3/Robô Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothSlave/BluetoothSlave.ino",
+          "size": 1233,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothSlave/BluetoothSlave.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothSlave/BluetoothSlave.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/Programas/BlueTooth-LCD-DHT11/BluetoothSlave/BluetoothSlave.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "2-Frente.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/2-Frente.jpg",
+          "size": 573048,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/2-Frente.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/2-Frente.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/2-Frente.jpg"
+        },
+        {
+          "name": "3-Lateral esquerda.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/3-Lateral esquerda.jpg",
+          "size": 1012602,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda.jpg"
+        },
+        {
+          "name": "3-Lateral esquerda2.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/3-Lateral esquerda2.jpg",
+          "size": 548273,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda2.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda2.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/3-Lateral%20esquerda2.jpg"
+        },
+        {
+          "name": "4-PormenorEstrutura.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/4-PormenorEstrutura.jpg",
+          "size": 903196,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/4-PormenorEstrutura.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/4-PormenorEstrutura.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/4-PormenorEstrutura.jpg"
+        },
+        {
+          "name": "5-PormenorEstrutura.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/5-PormenorEstrutura.jpg",
+          "size": 854678,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/5-PormenorEstrutura.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/5-PormenorEstrutura.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/5-PormenorEstrutura.jpg"
+        },
+        {
+          "name": "6-VistaInferior.jpg",
+          "path": "2022_T3/Robô Explorador/19- construção do carrinho/6-VistaInferior.jpg",
+          "size": 680897,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/6-VistaInferior.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/6-VistaInferior.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Rob%C3%B4%20Explorador/19-%20constru%C3%A7%C3%A3o%20do%20carrinho/6-VistaInferior.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2022_T3--sensor-estacionamento",
+      "source": "github",
+      "edition": "2022_T3",
+      "editionLabel": "2022 · Turma 3",
+      "title": "Sensor de Estacionamento",
+      "author": "Paulo Meireis",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2022_T3/Sensor Estacionamento",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2022_T3/Sensor%20Estacionamento",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "sZfyN1Dawlo",
+          "url": "https://youtu.be/sZfyN1Dawlo"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "PROJETO_SENSOR_ESTACIONAMENTO_FINAL.ino",
+          "path": "2022_T3/Sensor Estacionamento/PROJETO_SENSOR_ESTACIONAMENTO_FINAL.ino",
+          "size": 2787,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2022_T3/Sensor%20Estacionamento/PROJETO_SENSOR_ESTACIONAMENTO_FINAL.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2022_T3/Sensor%20Estacionamento/PROJETO_SENSOR_ESTACIONAMENTO_FINAL.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2022_T3/Sensor%20Estacionamento/PROJETO_SENSOR_ESTACIONAMENTO_FINAL.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--arduino-breathalyser",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Arduino BreathAlyser",
+      "author": "Regina Oliveira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Arduino BreathAlyser",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Arduino%20BreathAlyser",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "ZZrHoI0YpsY",
+          "url": "https://youtu.be/ZZrHoI0YpsY"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": []
+    },
+    {
+      "id": "2023_T1--arduino-says",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Arduino Says",
+      "author": "José Alçada",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Arduino Says",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Arduino%20Says",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "UAs7_oupLwY",
+          "url": "https://youtu.be/UAs7_oupLwY"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ArduinoSays_vFinal.ino",
+          "path": "2023_T1/Arduino Says/ArduinoSays_vFinal.ino",
+          "size": 7463,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Arduino%20Says/ArduinoSays_vFinal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Arduino%20Says/ArduinoSays_vFinal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Arduino%20Says/ArduinoSays_vFinal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Projeto Final - Arduino Says.png",
+          "path": "2023_T1/Arduino Says/Projeto Final - Arduino Says.png",
+          "size": 173384,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Arduino%20Says/Projeto%20Final%20-%20Arduino%20Says.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Arduino%20Says/Projeto%20Final%20-%20Arduino%20Says.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Arduino%20Says/Projeto%20Final%20-%20Arduino%20Says.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T1--bicicleta-estatica",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Bicicleta Estática",
+      "author": "Orlando Mendonça",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Bicicleta Estática",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Bicicleta%20Est%C3%A1tica",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "X-Prs6bX3TU",
+          "url": "https://youtu.be/X-Prs6bX3TU"
+        },
+        {
+          "name": "VID-20231228-WA0004.mp4",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/VID-20231228-WA0004.mp4",
+          "size": 4157831,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/VID-20231228-WA0004.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/VID-20231228-WA0004.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/VID-20231228-WA0004.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [
+        {
+          "name": "IMG-20231228-WA0009.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0009.jpg",
+          "size": 621957,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0009.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0009.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0009.jpg"
+        },
+        {
+          "name": "IMG-20231228-WA0010.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0010.jpg",
+          "size": 381184,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0010.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0010.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0010.jpg"
+        },
+        {
+          "name": "IMG-20231228-WA0011.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0011.jpg",
+          "size": 383277,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0011.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0011.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0011.jpg"
+        },
+        {
+          "name": "IMG-20231228-WA0012.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0012.jpg",
+          "size": 412261,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0012.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0012.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0012.jpg"
+        },
+        {
+          "name": "IMG-20231228-WA0013.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0013.jpg",
+          "size": 301980,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0013.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0013.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0013.jpg"
+        },
+        {
+          "name": "IMG-20231228-WA0014.jpg",
+          "path": "2023_T1/Bicicleta Estática/Fotos/fotos/IMG-20231228-WA0014.jpg",
+          "size": 391483,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0014.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0014.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Bicicleta%20Est%C3%A1tica/Fotos/fotos/IMG-20231228-WA0014.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2023_T1--carro-engenheiro",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Carro Engenheiro",
+      "author": "Hugo Rodrigues",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Carro Engenheiro",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Carro%20Engenheiro",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "h0FPpvm3-3U",
+          "url": "https://youtu.be/h0FPpvm3-3U"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "CarroBlueTooth.ino",
+          "path": "2023_T1/Carro Engenheiro/CarroBlueTooth.ino",
+          "size": 1085,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Carro%20Engenheiro/CarroBlueTooth.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Carro%20Engenheiro/CarroBlueTooth.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Carro%20Engenheiro/CarroBlueTooth.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Sensor_GAS_TEMP_HUM.ino",
+          "path": "2023_T1/Carro Engenheiro/Sensor_GAS_TEMP_HUM.ino",
+          "size": 1036,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Carro%20Engenheiro/Sensor_GAS_TEMP_HUM.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Carro%20Engenheiro/Sensor_GAS_TEMP_HUM.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Carro%20Engenheiro/Sensor_GAS_TEMP_HUM.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--carro-robot",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Carro Robot",
+      "author": "Paulo Carvalho",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Carro Robot",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Carro%20Robot",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "GIoNY-Do8ac",
+          "url": "https://youtu.be/GIoNY-Do8ac"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Codigo.ino",
+          "path": "2023_T1/Carro Robot/Codigo/Codigo.ino",
+          "size": 2587,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Carro%20Robot/Codigo/Codigo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Carro%20Robot/Codigo/Codigo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Carro%20Robot/Codigo/Codigo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--carrossel-festivo",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Carrossel Festivo",
+      "author": "Maria Elisabete Pires",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Carrossel Festivo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Carrossel%20Festivo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "EEFK5HRhdMg",
+          "url": "https://youtu.be/EEFK5HRhdMg"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "motor stepper_luz.ino",
+          "path": "2023_T1/Carrossel Festivo/motor stepper_luz.ino",
+          "size": 1214,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Carrossel%20Festivo/motor%20stepper_luz.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Carrossel%20Festivo/motor%20stepper_luz.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Carrossel%20Festivo/motor%20stepper_luz.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--cat-feeder",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Cat Feeder",
+      "author": "Clara Ferreira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Cat Feeder",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Cat%20Feeder",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "3zEL_QVknb4",
+          "url": "https://youtu.be/3zEL_QVknb4"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Codigo.ino",
+          "path": "2023_T1/Cat Feeder/Codigo.ino",
+          "size": 5033,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Cat%20Feeder/Codigo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Cat%20Feeder/Codigo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Cat%20Feeder/Codigo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--girassol-robotico",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Girassol Robótico",
+      "author": "Marta Caseirito",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Girassol Robótico",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Girassol%20Rob%C3%B3tico",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "tI3WP01tfIg",
+          "url": "https://youtu.be/tI3WP01tfIg"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Girassol_final.ino",
+          "path": "2023_T1/Girassol Robótico/Girassol_final.ino",
+          "size": 708,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Girassol%20Rob%C3%B3tico/Girassol_final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Girassol%20Rob%C3%B3tico/Girassol_final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Girassol%20Rob%C3%B3tico/Girassol_final.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "circuitofinal.png",
+          "path": "2023_T1/Girassol Robótico/circuitofinal.png",
+          "size": 93430,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Girassol%20Rob%C3%B3tico/circuitofinal.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Girassol%20Rob%C3%B3tico/circuitofinal.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Girassol%20Rob%C3%B3tico/circuitofinal.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T1--painel-funny",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Painel Funny",
+      "author": "Marta Pipo",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Painel Funny",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Painel%20Funny",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "egnFS3pp05Y",
+          "url": "https://youtu.be/egnFS3pp05Y"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_MPF.ino",
+          "path": "2023_T1/Painel Funny/Projeto_MPF.ino",
+          "size": 6256,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Painel%20Funny/Projeto_MPF.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Painel%20Funny/Projeto_MPF.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Painel%20Funny/Projeto_MPF.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T1--semaforo",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Semáforo",
+      "author": "Vítor Moelas",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Semáforo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/Sem%C3%A1foro",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "eazR1K5mRr0",
+          "url": "https://youtu.be/eazR1K5mRr0"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Smf_prj.ino",
+          "path": "2023_T1/Semáforo/Smf_prj.ino",
+          "size": 3165,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Sem%C3%A1foro/Smf_prj.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Sem%C3%A1foro/Smf_prj.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Sem%C3%A1foro/Smf_prj.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Projeto_Esquema.png",
+          "path": "2023_T1/Semáforo/Projeto_Esquema.png",
+          "size": 438863,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/Sem%C3%A1foro/Projeto_Esquema.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/Sem%C3%A1foro/Projeto_Esquema.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/Sem%C3%A1foro/Projeto_Esquema.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T1--arvore-e-presepio-de-natal",
+      "source": "github",
+      "edition": "2023_T1",
+      "editionLabel": "2023 · Turma 1",
+      "title": "Árvore e Presépio de Natal",
+      "author": "Filipe Pontes",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T1/Árvore e Presépio de Natal",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "SHZpCzHM1ik",
+          "url": "https://youtu.be/SHZpCzHM1ik"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "msg_musica.ino",
+          "path": "2023_T1/Árvore e Presépio de Natal/msg_musica/msg_musica.ino",
+          "size": 2426,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/msg_musica/msg_musica.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/msg_musica/msg_musica.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/msg_musica/msg_musica.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "logotipo.ino",
+          "path": "2023_T1/Árvore e Presépio de Natal/logotipo/logotipo/logotipo.ino",
+          "size": 619,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/logotipo/logotipo/logotipo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/logotipo/logotipo/logotipo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T1/%C3%81rvore%20e%20Pres%C3%A9pio%20de%20Natal/logotipo/logotipo/logotipo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--4wd-smart-car-vitor-monteiro",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "4WD Smart Car",
+      "author": "Vítor Monteiro",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/4WD smart car - Vitor Monteiro",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "NObTGf5-ICM",
+          "url": "https://youtu.be/NObTGf5-ICM"
+        },
+        {
+          "name": "1.mp4",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/1.mp4",
+          "size": 7411669,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/1.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/1.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/1.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "2.mp4",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/2.mp4",
+          "size": 4253785,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/2.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "3.mp4",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/3.mp4",
+          "size": 78498924,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/3.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/3.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/3.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Alguns Kits.mp4",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/Alguns Kits.mp4",
+          "size": 80962230,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Alguns%20Kits.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Alguns%20Kits.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Alguns%20Kits.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Projeto final.pdf",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/Projeto final.pdf",
+          "size": 225398,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Projeto%20final.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Projeto%20final.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/Projeto%20final.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "CarControlForAndroid.ino",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/CarBluetooth/examples/CarControlForAndroid/CarControlForAndroid.ino",
+          "size": 2014,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/CarControlForAndroid.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/CarControlForAndroid.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/CarControlForAndroid.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "UltrasonicDisplay.ino",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/UltrasonicDisplay.ino",
+          "size": 1112,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/UltrasonicDisplay.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/UltrasonicDisplay.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/UltrasonicDisplay.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "car_bluetooth.cpp",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/CarBluetooth/car_bluetooth.cpp",
+          "size": 1771,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "car_bluetooth.h",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/CarBluetooth/car_bluetooth.h",
+          "size": 784,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/car_bluetooth.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "Ultrasonic.cpp",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/HCSR04Ultrasonic/Ultrasonic.cpp",
+          "size": 4356,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "Ultrasonic.h",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/HCSR04Ultrasonic/Ultrasonic.h",
+          "size": 1547,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/Ultrasonic.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "car_bluetooth.cpp",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.cpp",
+          "size": 1771,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "car_bluetooth.h",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.h",
+          "size": 784,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/CarBluetooth/examples/CarControlForAndroid/car_bluetooth.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "Ultrasonic.cpp",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.cpp",
+          "size": 4356,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "Ultrasonic.h",
+          "path": "2023_T2/4WD smart car - Vitor Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.h",
+          "size": 1547,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/4WD%20smart%20car%20-%20Vitor%20Monteiro/HCSR04Ultrasonic/examples/UltrasonicDisplay/Ultrasonic.h",
+          "language": "cpp",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--arvores-que-escutam-idalino-faisca",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Arvores que escutam",
+      "author": "Idalino Faísca",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Arvores que escutam - Idalino Faísca",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "FBsJcOK7bR0",
+          "url": "https://youtu.be/FBsJcOK7bR0"
+        },
+        {
+          "name": "Projeto - Arvores que escutam.pdf",
+          "path": "2023_T2/Arvores que escutam - Idalino Faísca/Projeto - Arvores que escutam.pdf",
+          "size": 179806,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Projeto%20-%20Arvores%20que%20escutam.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Projeto%20-%20Arvores%20que%20escutam.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Projeto%20-%20Arvores%20que%20escutam.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Plantas.ino",
+          "path": "2023_T2/Arvores que escutam - Idalino Faísca/Plantas/Plantas.ino",
+          "size": 7032,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Plantas/Plantas.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Plantas/Plantas.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Plantas/Plantas.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Esquema ligações - Árvores que escutam.png",
+          "path": "2023_T2/Arvores que escutam - Idalino Faísca/Esquema ligações - Árvores que escutam.png",
+          "size": 199559,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Esquema%20liga%C3%A7%C3%B5es%20-%20%C3%81rvores%20que%20escutam.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Esquema%20liga%C3%A7%C3%B5es%20-%20%C3%81rvores%20que%20escutam.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Arvores%20que%20escutam%20-%20Idalino%20Fa%C3%ADsca/Esquema%20liga%C3%A7%C3%B5es%20-%20%C3%81rvores%20que%20escutam.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--cancela-estacionamento-patricia-carvalhais",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Cancela Estacionamento",
+      "author": "Patricia Carvalhais",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Cancela Estacionamento - Patricia Carvalhais",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Cancela%20Estacionamento%20-%20Patricia%20Carvalhais",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "GVKppyWPwNM",
+          "url": "https://youtu.be/GVKppyWPwNM"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ProjetoFinal.ino",
+          "path": "2023_T2/Cancela Estacionamento - Patricia Carvalhais/ProjetoFinal.ino",
+          "size": 4639,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Cancela%20Estacionamento%20-%20Patricia%20Carvalhais/ProjetoFinal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Cancela%20Estacionamento%20-%20Patricia%20Carvalhais/ProjetoFinal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Cancela%20Estacionamento%20-%20Patricia%20Carvalhais/ProjetoFinal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--controlo-barreira-sandra-amorim",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Controlo Barreira",
+      "author": "Sandra Amorim",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Controlo Barreira - Sandra Amorim",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "kDZ8Fosuqxw",
+          "url": "https://youtu.be/kDZ8Fosuqxw"
+        },
+        {
+          "name": "Link vídeo - Sandra Amorim.pdf",
+          "path": "2023_T2/Controlo Barreira - Sandra Amorim/Link vídeo - Sandra Amorim.pdf",
+          "size": 76794,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/Link%20v%C3%ADdeo%20-%20Sandra%20Amorim.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/Link%20v%C3%ADdeo%20-%20Sandra%20Amorim.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/Link%20v%C3%ADdeo%20-%20Sandra%20Amorim.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "RFID_Controlo_Barreira.ino",
+          "path": "2023_T2/Controlo Barreira - Sandra Amorim/RFID_Controlo_Barreira.ino",
+          "size": 1827,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/RFID_Controlo_Barreira.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/RFID_Controlo_Barreira.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/RFID_Controlo_Barreira.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "MFRC522.cpp",
+          "path": "2023_T2/Controlo Barreira - Sandra Amorim/MFRC522.cpp",
+          "size": 55117,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "MFRC522.h",
+          "path": "2023_T2/Controlo Barreira - Sandra Amorim/MFRC522.h",
+          "size": 14351,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Controlo%20Barreira%20-%20Sandra%20Amorim/MFRC522.h",
+          "language": "cpp",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--inout-control-pedro-joao",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Controlo de acesso",
+      "author": "Pedro João",
+      "summary": "Pretendo desenvolver um sistema que controle as entradas e saídas de pessoas (ou animais).\nO sistema será montado na parte superior de uma porta.\nCom o recurso a 2 sensores ultrassónicos, o sistema verifica se uma pessoa entra ou sai por uma porta.\nAo passar pela porta:\n- o Buzzer dá sinal\n- acende, temporariamente, um LED verde se entrar ou LED vermelho se sair\n- o motor servo roda para o lado de uma palavra correspondente (ENTROU ou SAIU)\n- no Display LCD I2C aparece o somatório de entradas e de saídas, assim como o total de pessoas presentes no espaço controlado pelo sistema\nO botão de pressão serve para fazer reset à contagem.",
+      "objectives": "Aplicar os conhecimentos adquiridos durante a formação ‘Programação de Arduínos’.",
+      "objectivesSource": "proposta",
+      "resources": "Arduíno\nBotão de pressão / resistência\nBotão interruptor (?)\nBuzzer\nSensor Ultrassónico (2)\nLEDs (2) / resistências\nDisplay LCD I2C\nMotor Servo / condensador\nPilha 9V / Alimentador AC/DC\nFios\nA vermelho – acrescentado posteriormente",
+      "folder": "2023_T2/InOut Control - Pedro João",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "vcmY2GQc9I4",
+          "url": "https://youtu.be/vcmY2GQc9I4"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Decisoes_Ultrassonicos.docx",
+          "path": "2023_T2/InOut Control - Pedro João/Decisoes_Ultrassonicos.docx",
+          "size": 30766,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Decisoes_Ultrassonicos.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Decisoes_Ultrassonicos.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Decisoes_Ultrassonicos.docx",
+          "kind": "document"
+        },
+        {
+          "name": "Proposta de Projeto - Pedro Joao.docx",
+          "path": "2023_T2/InOut Control - Pedro João/Proposta de Projeto - Pedro Joao.docx",
+          "size": 38972,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Proposta%20de%20Projeto%20-%20Pedro%20Joao.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Proposta%20de%20Projeto%20-%20Pedro%20Joao.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/Proposta%20de%20Projeto%20-%20Pedro%20Joao.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "inout_control.ino",
+          "path": "2023_T2/InOut Control - Pedro João/inout_control/inout_control.ino",
+          "size": 6479,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control/inout_control.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control/inout_control.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control/inout_control.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "inout_control_esquema.png",
+          "path": "2023_T2/InOut Control - Pedro João/inout_control_esquema.png",
+          "size": 493527,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_esquema.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_esquema.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_esquema.png"
+        },
+        {
+          "name": "inout_control_logo.png",
+          "path": "2023_T2/InOut Control - Pedro João/inout_control_logo.png",
+          "size": 21780,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_logo.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_logo.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/InOut%20Control%20-%20Pedro%20Jo%C3%A3o/inout_control_logo.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--estacao-metereologica-carlos-silva",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Estação Metereológica",
+      "author": "Carlos Silva",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Estação Metereológica - Carlos Silva",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Esta%C3%A7%C3%A3o%20Metereol%C3%B3gica%20-%20Carlos%20Silva",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "tJ1pLltPsd4",
+          "url": "https://youtu.be/tJ1pLltPsd4"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Meteo.ino",
+          "path": "2023_T2/Estação Metereológica - Carlos Silva/Meteo/Meteo.ino",
+          "size": 1270,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Esta%C3%A7%C3%A3o%20Metereol%C3%B3gica%20-%20Carlos%20Silva/Meteo/Meteo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Esta%C3%A7%C3%A3o%20Metereol%C3%B3gica%20-%20Carlos%20Silva/Meteo/Meteo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Esta%C3%A7%C3%A3o%20Metereol%C3%B3gica%20-%20Carlos%20Silva/Meteo/Meteo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--florhumisense-vera-freitas",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "FlorHumiSense",
+      "author": "Vera Freitas",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/FlorHumiSense - Vera Freitas",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "RqAQMKVcKg8",
+          "url": "https://youtu.be/RqAQMKVcKg8"
+        },
+        {
+          "name": "20240402_152450.mp4",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_152450.mp4",
+          "size": 86952358,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152450.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152450.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152450.mp4",
+          "kind": "video"
+        },
+        {
+          "kind": "link",
+          "name": "Ficheiro no Google Drive",
+          "url": "https://drive.google.com/drive/folders/1bIlNOeVloeOcROXi-88tpuC2gCwLvjyG?usp=drive_link"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto FlorHumiSense.docx",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/Projeto FlorHumiSense.docx",
+          "size": 6196,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/Projeto%20FlorHumiSense.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/Projeto%20FlorHumiSense.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/Projeto%20FlorHumiSense.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "projetocomLCD.ino",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/projetocomLCD.ino",
+          "size": 2338,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/projetocomLCD.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/projetocomLCD.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/projetocomLCD.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "20240402_144317.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_144317.jpg",
+          "size": 1020597,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144317.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144317.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144317.jpg"
+        },
+        {
+          "name": "20240402_144402.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_144402.jpg",
+          "size": 1119558,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144402.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144402.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144402.jpg"
+        },
+        {
+          "name": "20240402_144414.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_144414.jpg",
+          "size": 1103363,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144414.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144414.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144414.jpg"
+        },
+        {
+          "name": "20240402_144552.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_144552.jpg",
+          "size": 1107764,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144552.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144552.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_144552.jpg"
+        },
+        {
+          "name": "20240402_145826.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_145826.jpg",
+          "size": 1212938,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_145826.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_145826.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_145826.jpg"
+        },
+        {
+          "name": "20240402_152331.jpg",
+          "path": "2023_T2/FlorHumiSense - Vera Freitas/20240402_152331.jpg",
+          "size": 1252000,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152331.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152331.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/FlorHumiSense%20-%20Vera%20Freitas/20240402_152331.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--jogo-do-simon-daniel-carmo",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Jogo do Simon",
+      "author": "Daniel Carmo",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Jogo do Simon - Daniel Carmo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Jogo%20do%20Simon%20-%20Daniel%20Carmo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "IPyGMV9doK4",
+          "url": "https://youtu.be/IPyGMV9doK4"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ProjetoFinal.ino",
+          "path": "2023_T2/Jogo do Simon - Daniel Carmo/ProjetoFinal.ino",
+          "size": 10140,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20do%20Simon%20-%20Daniel%20Carmo/ProjetoFinal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20do%20Simon%20-%20Daniel%20Carmo/ProjetoFinal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20do%20Simon%20-%20Daniel%20Carmo/ProjetoFinal.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--jogo-roleta-de-leds-carla-ferreira",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Jogo Roleta de Leds",
+      "author": "Carla Ferreira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Jogo Roleta de Leds - Carla Ferreira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Genially",
+          "url": "https://view.genial.ly/660eef0ddeffd10014753dec/learning-experience-didactic-unit-projeto-final-carla-ferreira"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Link apresentação projeto Final.docx",
+          "path": "2023_T2/Jogo Roleta de Leds - Carla Ferreira/Link apresentação projeto Final.docx",
+          "size": 13299,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Link%20apresenta%C3%A7%C3%A3o%20projeto%20Final.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Link%20apresenta%C3%A7%C3%A3o%20projeto%20Final.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Link%20apresenta%C3%A7%C3%A3o%20projeto%20Final.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "roleta_leds.ino",
+          "path": "2023_T2/Jogo Roleta de Leds - Carla Ferreira/roleta_leds/roleta_leds.ino",
+          "size": 5661,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/roleta_leds/roleta_leds.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/roleta_leds/roleta_leds.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/roleta_leds/roleta_leds.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_20240406_225310.jpg",
+          "path": "2023_T2/Jogo Roleta de Leds - Carla Ferreira/Imagens/IMG_20240406_225310.jpg",
+          "size": 2136007,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225310.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225310.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225310.jpg"
+        },
+        {
+          "name": "IMG_20240406_225400.jpg",
+          "path": "2023_T2/Jogo Roleta de Leds - Carla Ferreira/Imagens/IMG_20240406_225400.jpg",
+          "size": 2133141,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225400.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225400.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/IMG_20240406_225400.jpg"
+        },
+        {
+          "name": "RoletaLeds.png",
+          "path": "2023_T2/Jogo Roleta de Leds - Carla Ferreira/Imagens/RoletaLeds.png",
+          "size": 371771,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/RoletaLeds.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/RoletaLeds.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Jogo%20Roleta%20de%20Leds%20-%20Carla%20Ferreira/Imagens/RoletaLeds.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--lancamento-de-um-dado-jorge-vieira",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Lançamento de um dado",
+      "author": "Jorge Vieira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Lançamento de um dado - Jorge Vieira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Lan%C3%A7amento%20de%20um%20dado%20-%20Jorge%20Vieira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "m81IwLXIHpc",
+          "url": "https://youtu.be/m81IwLXIHpc"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_Lancamento_de_um_Dado.ino",
+          "path": "2023_T2/Lançamento de um dado - Jorge Vieira/Projeto_Lancamento_de_um_Dado.ino",
+          "size": 4549,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Lan%C3%A7amento%20de%20um%20dado%20-%20Jorge%20Vieira/Projeto_Lancamento_de_um_Dado.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Lan%C3%A7amento%20de%20um%20dado%20-%20Jorge%20Vieira/Projeto_Lancamento_de_um_Dado.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Lan%C3%A7amento%20de%20um%20dado%20-%20Jorge%20Vieira/Projeto_Lancamento_de_um_Dado.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--led-rocker-game-luis-batista",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Led Rocker Game",
+      "author": "Luís Baptista",
+      "summary": "Como projeto final, pretende-se que seja desenvolvido um projeto, utilizando o microcontrolador Arduino, que evidencie as competências adquiridas ao longo da ação de formação.\nA construção do jogo LED Rocker Game, com Arduino e componentes eletrónicos, enquadra-se nos objetivos do projeto final, tendo sido escolhida a partir das propostas apresentadas pelo formador.\nSerá utilizada uma placa Arduino UNO e diversos componentes para realizar o projeto.\nPara a apresentação do projeto final será efetuada a gravação de um pequeno vídeo ou uma apresentação automática que incluirá:",
+      "objectives": "O objetivo deste trabalho que proponho fazer é a criação do jogo LED ROCKER GAME, utilizando a placa eletrónica ARDUINO e os diversos componentes eletrónicos necessários para a sua implementação física.\nO jogo tem um conjunto de LEDs que acendem sequencialmente num sentido e, depois, no sentido contrário, em ciclo até que o jogador prima o botão de pressão. Nesse momento o código tem de testar se o LED que estava acesso corresponde ao LED do meio. Se for o caso, o jogador ganha pontos (ou vidas). Caso o LED central não esteja ligado no momento de premir o botão, então o jogador perde pontos (vidas).\nO jogo termina se o número de vidas chegar a zero e o jogador falhar de novo.\nNa implementação pretendo utilizar um display LCD para ir mostrando o desenrolar do jogo.\nIrei, ainda, fazer o código em linguagem C e integrar toda a eletrónica numa caixa, apresentando um trabalho completo em forma de aparelho eletrónico.",
+      "objectivesSource": "proposta",
+      "resources": "Para realizar este projeto necessitarei dos seguintes componentes:\n1 Placa Arduino Uno\n1 Breadboard\n9 LEDs (1 vermelho; 8 de outra cor)\n1 botão de pressão\n1 LCD panel\n1 speaker ou buzzer passivo\nVários fios (jumper wires)\n10 resistências de 220 ohm\n1 cabo de energia/USB",
+      "folder": "2023_T2/Led Rocker Game - Luis Batista",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "z580uGMTbn4",
+          "url": "https://youtu.be/z580uGMTbn4"
+        },
+        {
+          "name": "Desenvolvimento_Projeto_LuisBaptista.pdf",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Desenvolvimento_Projeto_LuisBaptista.pdf",
+          "size": 7349335,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "Projeto_parte1.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/Projeto_parte1.mp4",
+          "size": 11381144,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto_parte1.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto_parte1.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto_parte1.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Projeto_parte2.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 2/Projeto_parte2.mp4",
+          "size": 12586735,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%202/Projeto_parte2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%202/Projeto_parte2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%202/Projeto_parte2.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Video_Execução1.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 3/Video_Execução1.mp4",
+          "size": 10733433,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o1.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o1.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o1.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Video_Execução2.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 3/Video_Execução2.mp4",
+          "size": 9882336,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Video_Execuc%CC%A7a%CC%83o2.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "VideoFinal1.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 4/VideoFinal1.mp4",
+          "size": 7944088,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal1.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal1.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal1.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "VideoFinal2.mp4",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 4/VideoFinal2.mp4",
+          "size": 3261788,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%204/VideoFinal2.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Proposta de Projeto - Luis Baptista.pdf",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Proposta de Projeto - Luis Baptista.pdf",
+          "size": 145997,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Desenvolvimento_Projeto_LuisBaptista.docx",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Desenvolvimento_Projeto_LuisBaptista.docx",
+          "size": 5755453,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Desenvolvimento_Projeto_LuisBaptista.docx",
+          "kind": "document"
+        },
+        {
+          "name": "ProjetoFinal - Luís Baptista.docx",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/ProjetoFinal - Luís Baptista.docx",
+          "size": 23951,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal%20-%20Lu%C3%ADs%20Baptista.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal%20-%20Lu%C3%ADs%20Baptista.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal%20-%20Lu%C3%ADs%20Baptista.docx",
+          "kind": "document"
+        },
+        {
+          "name": "Proposta de Projeto - Luis Baptista.docx",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Proposta de Projeto - Luis Baptista.docx",
+          "size": 39570,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Proposta%20de%20Projeto%20-%20Luis%20Baptista.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "ProjetoFinal_codigo.ino",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/ProjetoFinal_codigo.ino",
+          "size": 3153,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal_codigo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal_codigo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/ProjetoFinal_codigo.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Projeto2abr_codigo_pt1.ino",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/Projeto2abr_codigo_pt1.ino",
+          "size": 1742,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto2abr_codigo_pt1.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto2abr_codigo_pt1.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Projeto2abr_codigo_pt1.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Projeto2abr_codigo.ino",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 3/Projeto2abr_codigo.ino",
+          "size": 3153,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Projeto2abr_codigo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Projeto2abr_codigo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%203/Projeto2abr_codigo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Captura de ecrã 2024-04-02, às 15.26.53.png",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/Captura de ecrã 2024-04-02, às 15.26.53.png",
+          "size": 33284,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Captura%20de%20ecra%CC%83%202024-04-02%2C%20a%CC%80s%2015.26.53.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Captura%20de%20ecra%CC%83%202024-04-02%2C%20a%CC%80s%2015.26.53.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/Captura%20de%20ecra%CC%83%202024-04-02%2C%20a%CC%80s%2015.26.53.png"
+        },
+        {
+          "name": "p1.jpeg",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/p1.jpeg",
+          "size": 236821,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p1.jpeg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p1.jpeg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p1.jpeg"
+        },
+        {
+          "name": "p2.jpeg",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/p2.jpeg",
+          "size": 285737,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p2.jpeg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p2.jpeg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p2.jpeg"
+        },
+        {
+          "name": "p3.jpeg",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/p3.jpeg",
+          "size": 220765,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p3.jpeg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p3.jpeg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p3.jpeg"
+        },
+        {
+          "name": "p4.jpeg",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/p4.jpeg",
+          "size": 263211,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p4.jpeg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p4.jpeg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p4.jpeg"
+        },
+        {
+          "name": "p5.jpeg",
+          "path": "2023_T2/Led Rocker Game - Luis Batista/Parte 1/p5.jpeg",
+          "size": 252594,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p5.jpeg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p5.jpeg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Led%20Rocker%20Game%20-%20Luis%20Batista/Parte%201/p5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--morse-antonio-novo",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "MORSE (-- --- .-. ... .)",
+      "author": "António Novo",
+      "summary": "Este projeto vai ser desenvolvido no âmbito do curso de Programação com Arduinos, promovido pela Associação Nacional de Professores de Informática, e visa a consolidação e aplicação prática dos conhecimentos adquiridos ao longo do processo de formação.\nO projeto MORSE foi escolhido e idealizado tendo em consideração a possibilidade de utilizar a maior diversidade possível de componentes, disponibilizados pelo “kit Arduino”, adquirido na ANPRI, tendo em conta não ser possível ter acesso a outros componentes em tempo útil.",
+      "objectives": "O projeto MORSE tem como objetivo converter e reproduzir mensagens inseridas pelo utilizador através da consola em código morse. O código morse gerado pode ser reproduzido sob a forma de som ou de luz. No caso de a reprodução do código morse ser realizada através de som, é possível selecionar uma de três tonalidades. É possível aumentar ou diminuir, através do potenciómetro, o ritmo de reprodução do código morse. O ritmo de reprodução do código morse aplica-se à reprodução sob a forma sonora ou luminosa.",
+      "objectivesSource": "proposta",
+      "resources": "Para a implementação do projeto MORSE vai ser necessário o seguinte conjunto de componentes/material:\n242887532385\n1x - Arduino Uno com respetivo cabo Usb;\n1x - Breadboard;\n1x – Potenciómetro;\n4x – Botão de pressão;\n1x – Buzzer passivo\n4x – Resistencia 10 kOhms\n3x – Resistência 220 Ohms\n3x – Led verde\n1x – Led amarelo\n1x – Led vermelho\n1x – Led branco (*)\nFios\n(*) Não tendo no kit um led branco, foi utilizado um led amarelo",
+      "folder": "2023_T2/Morse - António Novo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "SiHKkkUO-kc",
+          "url": "https://youtu.be/SiHKkkUO-kc"
+        },
+        {
+          "name": "Projeto Morse.pptx",
+          "path": "2023_T2/Morse - António Novo/Projeto Morse.pptx",
+          "size": 48258058,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.pptx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.pptx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.pptx",
+          "kind": "slides"
+        },
+        {
+          "name": "ProjetoMorse.mp4",
+          "path": "2023_T2/Morse - António Novo/ProjetoMorse.mp4",
+          "size": 12331149,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "ProjetoMorse2.mp4",
+          "path": "2023_T2/Morse - António Novo/ProjetoMorse2.mp4",
+          "size": 17613498,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/ProjetoMorse2.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto Morse.docx",
+          "path": "2023_T2/Morse - António Novo/Projeto Morse.docx",
+          "size": 76813,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/Projeto%20Morse.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "PFINAL.ino",
+          "path": "2023_T2/Morse - António Novo/PFINAL.ino",
+          "size": 5424,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/PFINAL.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/PFINAL.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20-%20Ant%C3%B3nio%20Novo/PFINAL.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--morse-decoder-pedro-frota",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Morse Decoder",
+      "author": "Pedro Frota",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Morse Decoder - Pedro Frota",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "dE-afTGSWKI",
+          "url": "https://youtu.be/dE-afTGSWKI"
+        },
+        {
+          "name": "PedroFrota - Morse Decoder-esquema.pdf",
+          "path": "2023_T2/Morse Decoder - Pedro Frota/PedroFrota - Morse Decoder-esquema.pdf",
+          "size": 6763,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota%20-%20Morse%20Decoder-esquema.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota%20-%20Morse%20Decoder-esquema.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota%20-%20Morse%20Decoder-esquema.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "PedroFrota_Morse_Decoder.ino",
+          "path": "2023_T2/Morse Decoder - Pedro Frota/PedroFrota_Morse_Decoder/PedroFrota_Morse_Decoder.ino",
+          "size": 5030,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota_Morse_Decoder/PedroFrota_Morse_Decoder.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota_Morse_Decoder/PedroFrota_Morse_Decoder.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Morse%20Decoder%20-%20Pedro%20Frota/PedroFrota_Morse_Decoder/PedroFrota_Morse_Decoder.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--ouves-logo-iluminas-antonio-silva",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Ouves … logo iluminas",
+      "author": "António Silva",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Ouves … logo iluminas - António Silva",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "YWK1yKBsDus",
+          "url": "https://youtu.be/YWK1yKBsDus"
+        },
+        {
+          "name": "ProgramaçãoComArduinos_ASilva.ppsx",
+          "path": "2023_T2/Ouves … logo iluminas - António Silva/ProgramaçãoComArduinos_ASilva.ppsx",
+          "size": 10678776,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Programa%C3%A7%C3%A3oComArduinos_ASilva.ppsx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Programa%C3%A7%C3%A3oComArduinos_ASilva.ppsx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Programa%C3%A7%C3%A3oComArduinos_ASilva.ppsx",
+          "kind": "slides"
+        },
+        {
+          "name": "Projeto_AntónioSilva.pdf",
+          "path": "2023_T2/Ouves … logo iluminas - António Silva/Projeto_AntónioSilva.pdf",
+          "size": 344743,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Projeto_Ant%C3%B3nioSilva.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Projeto_Ant%C3%B3nioSilva.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/Projeto_Ant%C3%B3nioSilva.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "ProjetoLampadaPalmas.ino",
+          "path": "2023_T2/Ouves … logo iluminas - António Silva/ProjetoLampadaPalmas.ino",
+          "size": 2347,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/ProjetoLampadaPalmas.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/ProjetoLampadaPalmas.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ouves%20%E2%80%A6%20logo%20iluminas%20-%20Ant%C3%B3nio%20Silva/ProjetoLampadaPalmas.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--piano-arduino-alfredo-figueiredo",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Piano Arduino",
+      "author": "Alfredo Figueiredo",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Piano Arduino - Alfredo Figueiredo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "hJ1n6hS0EDk",
+          "url": "https://youtu.be/hJ1n6hS0EDk"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Piano_Arduino.ino",
+          "path": "2023_T2/Piano Arduino - Alfredo Figueiredo/Piano_Arduino.ino",
+          "size": 413,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Piano_Arduino.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Piano_Arduino.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Piano_Arduino.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Ligações_tinkercad.jpg",
+          "path": "2023_T2/Piano Arduino - Alfredo Figueiredo/Ligações_tinkercad.jpg",
+          "size": 123206,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Liga%C3%A7%C3%B5es_tinkercad.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Liga%C3%A7%C3%B5es_tinkercad.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Piano%20Arduino%20-%20Alfredo%20Figueiredo/Liga%C3%A7%C3%B5es_tinkercad.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--reciclagem-inteligente-antonio-oliveira",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Reciclagem Inteligente",
+      "author": "António Oliveira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Reciclagem Inteligente - António Oliveira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "MOD5Y2-2bRg",
+          "url": "https://youtu.be/MOD5Y2-2bRg"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Apresentação Projeto Final.rtf",
+          "path": "2023_T2/Reciclagem Inteligente - António Oliveira/Apresentação Projeto Final.rtf",
+          "size": 493,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Apresenta%C3%A7%C3%A3o%20Projeto%20Final.rtf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Apresenta%C3%A7%C3%A3o%20Projeto%20Final.rtf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Apresenta%C3%A7%C3%A3o%20Projeto%20Final.rtf",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "Smart_Trash_Bin.ino",
+          "path": "2023_T2/Reciclagem Inteligente - António Oliveira/Smart_Trash_Bin.ino",
+          "size": 728,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Smart_Trash_Bin.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Smart_Trash_Bin.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Reciclagem%20Inteligente%20-%20Ant%C3%B3nio%20Oliveira/Smart_Trash_Bin.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--roleta-vitor-santos",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Roleta",
+      "author": "Vítor Santos",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Roleta - Vitor Santos",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Roleta%20-%20Vitor%20Santos",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "ipeRTbNe8-w",
+          "url": "https://youtu.be/ipeRTbNe8-w"
+        },
+        {
+          "name": "Primeiro ensaio.mp4",
+          "path": "2023_T2/Roleta - Vitor Santos/Primeiro ensaio.mp4",
+          "size": 14701498,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/Primeiro%20ensaio.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/Primeiro%20ensaio.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/Primeiro%20ensaio.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Vitor Santos Programação com Arduinos.mp4",
+          "path": "2023_T2/Roleta - Vitor Santos/Vitor Santos Programação com Arduinos.mp4",
+          "size": 30948923,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/Vitor%20Santos%20Programa%C3%A7%C3%A3o%20com%20Arduinos.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/Vitor%20Santos%20Programa%C3%A7%C3%A3o%20com%20Arduinos.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/Vitor%20Santos%20Programa%C3%A7%C3%A3o%20com%20Arduinos.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Vídeo 3D print.mp4",
+          "path": "2023_T2/Roleta - Vitor Santos/Vídeo 3D print.mp4",
+          "size": 10961841,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADdeo%203D%20print.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADdeo%203D%20print.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADdeo%203D%20print.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "WS2812B.PDF",
+          "path": "2023_T2/Roleta - Vitor Santos/WS2812B.PDF",
+          "size": 366790,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/WS2812B.PDF",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/WS2812B.PDF",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/WS2812B.PDF",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Vítor Santos.docx",
+          "path": "2023_T2/Roleta - Vitor Santos/Vítor Santos.docx",
+          "size": 2897098,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADtor%20Santos.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADtor%20Santos.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/V%C3%ADtor%20Santos.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "sketch_apr14a.ino",
+          "path": "2023_T2/Roleta - Vitor Santos/sketch_apr14a.ino",
+          "size": 5923,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Roleta%20-%20Vitor%20Santos/sketch_apr14a.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Roleta%20-%20Vitor%20Santos/sketch_apr14a.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Roleta%20-%20Vitor%20Santos/sketch_apr14a.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--regua-digital-helena-sousa",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Régua Digital",
+      "author": "Helena Sousa",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Régua Digital - Helena Sousa",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "4yXol39Odxs",
+          "url": "https://youtu.be/4yXol39Odxs"
+        },
+        {
+          "name": "Projeto Final_Régua Digital_Helena Sousa.ppsx",
+          "path": "2023_T2/Régua Digital - Helena Sousa/Projeto Final_Régua Digital_Helena Sousa.ppsx",
+          "size": 69392507,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Projeto%20Final_R%C3%A9gua%20Digital_Helena%20Sousa.ppsx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Projeto%20Final_R%C3%A9gua%20Digital_Helena%20Sousa.ppsx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Projeto%20Final_R%C3%A9gua%20Digital_Helena%20Sousa.ppsx",
+          "kind": "slides"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Regua_Digital.ino",
+          "path": "2023_T2/Régua Digital - Helena Sousa/Regua_Digital/Regua_Digital.ino",
+          "size": 904,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Regua_Digital/Regua_Digital.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Regua_Digital/Regua_Digital.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/R%C3%A9gua%20Digital%20-%20Helena%20Sousa/Regua_Digital/Regua_Digital.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--seguidor-sol-painel-fotovoltaicos-joaquim-costa",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Seguidor Sol Painel Fotovoltaico",
+      "author": "Joaquim Costa",
+      "summary": "Entrega de projeto final, que consiste num seguidor de sol, para um painel fotovoltaico.\nEnvio o link para o googledrive, dado que os ficheiros são bastante pesados.\nhttps://drive.google.com/drive/folders/1h1xsYc5hx6WEo5XTXA36PkFZGGbL5RCA?usp=sharing",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Seguidor Sol Painel Fotovoltaicos - Joaquim Costa",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Seguidor%20Sol%20Painel%20Fotovoltaicos%20-%20Joaquim%20Costa",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "RQ8HIU9g-JA",
+          "url": "https://youtu.be/RQ8HIU9g-JA"
+        },
+        {
+          "kind": "link",
+          "name": "Ficheiro no Google Drive",
+          "url": "https://drive.google.com/drive/folders/1h1xsYc5hx6WEo5XTXA36PkFZGGbL5RCA?usp=sharing"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto Final - Joaquim Costa.docx",
+          "path": "2023_T2/Seguidor Sol Painel Fotovoltaicos - Joaquim Costa/Projeto Final - Joaquim Costa.docx",
+          "size": 13491,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Seguidor%20Sol%20Painel%20Fotovoltaicos%20-%20Joaquim%20Costa/Projeto%20Final%20-%20Joaquim%20Costa.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Seguidor%20Sol%20Painel%20Fotovoltaicos%20-%20Joaquim%20Costa/Projeto%20Final%20-%20Joaquim%20Costa.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Seguidor%20Sol%20Painel%20Fotovoltaicos%20-%20Joaquim%20Costa/Projeto%20Final%20-%20Joaquim%20Costa.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [],
+      "images": []
+    },
+    {
+      "id": "2023_T2--sensor-ph-luis-lopes",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Sensor PH",
+      "author": "Luís Lopes",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Sensor PH - Luís Lopes",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Sensor%20PH%20-%20Lu%C3%ADs%20Lopes",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "nTzNE-hbJ08",
+          "url": "https://youtu.be/nTzNE-hbJ08"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_final.ino",
+          "path": "2023_T2/Sensor PH - Luís Lopes/Projeto_final.ino",
+          "size": 1956,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensor%20PH%20-%20Lu%C3%ADs%20Lopes/Projeto_final.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensor%20PH%20-%20Lu%C3%ADs%20Lopes/Projeto_final.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensor%20PH%20-%20Lu%C3%ADs%20Lopes/Projeto_final.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--sensores-dados-fernando-campos",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Sensores&Dados",
+      "author": "Fernando Campos",
+      "summary": "Esta atividade destina-se a alunos do 3º ciclo da disciplina de Educação Tecnológica, sendo também realizado trabalho interdisciplinar com a disciplina de TIC e Matemática. Parte-se do principio que os existe a impressora destinada aos laboratórios LED.\nFace à necessidade de criar uma cobertura de ocultação pelo menos parcial será realizado o mesmo através de módulos a imprimir em impressora 3D com modelos criados para o efeito, nomeadamente através de sistemas de ocultação para o Arduino UNO e LCD.",
+      "objectives": "Introdução a tecnologias emergentes no processo ensino aprendizagem.\nAtividades com potencialidade de desenvolvimento de sentido critico nos alunos.\nTrabalho de projeto que envolve os alunos e docentes das várias disciplinas.\nDesenvolvimento das competências essenciais que se encontram já previstas nas várias disciplinas envolvidas.",
+      "objectivesSource": "proposta",
+      "resources": "PC com S.O. Win10 e Software aplicacional para trabalhar com Arduino.\nCabo de comunicação\nLDR\nResistências\nLED\nDisplay de 2 linhas, para fazer o display da intensidade luminosa e da temperatura ambiente.\nSensor de temperatura LM\nMaterial diverso\nAcesso a impressora 3D (Laboratório LED, p.ex.) e software de edição, manipulação e conversão para código G através de secionamento da impressora 3D. É usual ser necessário pelo menos o seguinte software especifico: ThinkerCad 3D, 3d Builder – Microsot; Cura Software de secionamento e geração código G.\nNota: Não tendo atribuição de turma por me encontrar em mobilidade no Centro de Formação Contínua não será possível obter resultados da prática.",
+      "folder": "2023_T2/Sensores&Dados - Fernando Campos",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "Lw4r-jHMuog",
+          "url": "https://youtu.be/Lw4r-jHMuog"
+        },
+        {
+          "name": "20240325_182346000_iOS.MOV",
+          "path": "2023_T2/Sensores&Dados - Fernando Campos/Videos_Imagens/20240325_182346000_iOS.MOV",
+          "size": 26071611,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182346000_iOS.MOV",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182346000_iOS.MOV",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182346000_iOS.MOV",
+          "kind": "video"
+        },
+        {
+          "name": "20240325_182558000_iOS.MOV",
+          "path": "2023_T2/Sensores&Dados - Fernando Campos/Videos_Imagens/20240325_182558000_iOS.MOV",
+          "size": 22101587,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182558000_iOS.MOV",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182558000_iOS.MOV",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Videos_Imagens/20240325_182558000_iOS.MOV",
+          "kind": "video"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Modelo Proposta de Projeto.docx",
+          "path": "2023_T2/Sensores&Dados - Fernando Campos/Modelo Proposta de Projeto.docx",
+          "size": 38802,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Modelo%20Proposta%20de%20Projeto.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Modelo%20Proposta%20de%20Projeto.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Modelo%20Proposta%20de%20Projeto.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "sketch_j23Marco_serial_controlSensorTemperaturaLuz.ino",
+          "path": "2023_T2/Sensores&Dados - Fernando Campos/Codigo/sketch_j23Marco_serial_controlSensorTemperaturaLuz/sketch_j23Marco_serial_controlSensorTemperaturaLuz.ino",
+          "size": 2085,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/sketch_j23Marco_serial_controlSensorTemperaturaLuz/sketch_j23Marco_serial_controlSensorTemperaturaLuz.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/sketch_j23Marco_serial_controlSensorTemperaturaLuz/sketch_j23Marco_serial_controlSensorTemperaturaLuz.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/sketch_j23Marco_serial_controlSensorTemperaturaLuz/sketch_j23Marco_serial_controlSensorTemperaturaLuz.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "main.py",
+          "path": "2023_T2/Sensores&Dados - Fernando Campos/Codigo/Python&Dados/main.py",
+          "size": 5541,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/Python%26Dados/main.py",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/Python%26Dados/main.py",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Sensores%26Dados%20-%20Fernando%20Campos/Codigo/Python%26Dados/main.py",
+          "language": "python",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--smart-green-manuel-santos",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Smart Green: Estufa automatizada",
+      "author": "Manuel Santos",
+      "summary": "A escola onde leciono tem uma estufa que não está automatizada. Pretende-se com este projeto simplificar o processo de rega da estufa.",
+      "objectives": "Pretende-se automatizar uma estufa no que concerne à rega, tendo por base os valores da humidade do solo. Serão também apresentados os valores da humidade e da temperatura do ar. Os dados recolhidos serão apresentados numa aplicação Android.",
+      "objectivesSource": "proposta",
+      "resources": "Alimentação geral:\n- Painel fotovoltaico monocristalino JA Solar de 455 Wp\n- 1 controlador, com bateria 12V (Fonte de alimentação de 12V para a solenoide e para recarregar a pilha 18650)\nMicrocontrolador ESP32 LilyGo Highgrow (sensorial):\n- Alimentado com uma pilha 18650\n- Sensor de Humidade e Temperatura do Ar (DHT)\n- Sensor de Humidade do Solo;\nSistema de Rega:\n- Microcontrolador ESP32- Solenoide 12V\n- Shield para ESP32\n- Relé (para ativar a solenoide)\n- Solenoide 12V\n- Sensor de controlo fluxo de água\n- Tubo de rega\nReservatório de água:\n- Sensor de nível de líquido não invasivo ou interruptor automático flutuante (boia de nível)\nAplicação Android para visualizar o estão das variáveis",
+      "folder": "2023_T2/Smart Green - Manuel Santos",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "YfWi4ywmCAs",
+          "url": "https://youtu.be/YfWi4ywmCAs"
+        },
+        {
+          "name": "ANPRI - Formação Arduino - Manuel Santos.mp4",
+          "path": "2023_T2/Smart Green - Manuel Santos/ANPRI - Formação Arduino - Manuel Santos.mp4",
+          "size": 55171146,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/ANPRI%20-%20Forma%C3%A7%C3%A3o%20Arduino%20-%20Manuel%20Santos.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/ANPRI%20-%20Forma%C3%A7%C3%A3o%20Arduino%20-%20Manuel%20Santos.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/ANPRI%20-%20Forma%C3%A7%C3%A3o%20Arduino%20-%20Manuel%20Santos.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto - Manuel Santos.docx",
+          "path": "2023_T2/Smart Green - Manuel Santos/Projeto - Manuel Santos.docx",
+          "size": 39051,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Projeto%20-%20Manuel%20Santos.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Projeto%20-%20Manuel%20Santos.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Projeto%20-%20Manuel%20Santos.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "consumoAgua.ino",
+          "path": "2023_T2/Smart Green - Manuel Santos/Fluxo_Agua/consumoAgua.ino",
+          "size": 511,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/consumoAgua.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/consumoAgua.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/consumoAgua.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Fluxo_Agua.ino",
+          "path": "2023_T2/Smart Green - Manuel Santos/Fluxo_Agua/Fluxo_Agua.ino",
+          "size": 3849,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/Fluxo_Agua.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/Fluxo_Agua.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/Fluxo_Agua.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "MQTT.ino",
+          "path": "2023_T2/Smart Green - Manuel Santos/Fluxo_Agua/MQTT.ino",
+          "size": 518,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/MQTT.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/MQTT.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/Fluxo_Agua/MQTT.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "MQTT.ino",
+          "path": "2023_T2/Smart Green - Manuel Santos/SmartGreen/MQTT.ino",
+          "size": 1162,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/MQTT.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/MQTT.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/MQTT.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "SmartGreen.ino",
+          "path": "2023_T2/Smart Green - Manuel Santos/SmartGreen/SmartGreen.ino",
+          "size": 6191,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/SmartGreen.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/SmartGreen.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Green%20-%20Manuel%20Santos/SmartGreen/SmartGreen.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--smart-waste-container-vitor-sousa",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Smart Waste Container",
+      "author": "Vera Freitas",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Smart Waste Container - Vítor Sousa",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Canva",
+          "url": "https://www.canva.com/design/DAGB8aoD7aU/xIOOB8hpHVmWXVFqqoH3cw/view?utm_content=DAGB8aoD7aU&utm_campaign=designshare&utm_medium=link&utm_source=recording_view"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Box.ino",
+          "path": "2023_T2/Smart Waste Container - Vítor Sousa/Box.ino",
+          "size": 3564,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/Box.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/Box.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/Box.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "smart.png",
+          "path": "2023_T2/Smart Waste Container - Vítor Sousa/smart.png",
+          "size": 199851,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/smart.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/smart.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Smart%20Waste%20Container%20-%20V%C3%ADtor%20Sousa/smart.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--ultrasonic-radar-aida-meira",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Ultrasonic Radar",
+      "author": "Aida Meira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Ultrasonic Radar - Aida Meira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "Et-kSyeiYu0",
+          "url": "https://youtu.be/Et-kSyeiYu0"
+        },
+        {
+          "name": "Modelo Proposta de Projeto.pdf",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Modelo Proposta de Projeto.pdf",
+          "size": 179303,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Modelo%20Proposta%20de%20Projeto.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Modelo%20Proposta%20de%20Projeto.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Modelo%20Proposta%20de%20Projeto.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Esquema.docx",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Esquema_TinkerCad/Esquema.docx",
+          "size": 6284,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Esquema.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Esquema.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Esquema.docx",
+          "kind": "document"
+        },
+        {
+          "name": "linkvídeo.docx",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/linkvídeo.docx",
+          "size": 6419,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/linkv%C3%ADdeo.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/linkv%C3%ADdeo.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/linkv%C3%ADdeo.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "projetofinal.ino",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Programação/projetofinal.ino",
+          "size": 1872,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "projetofinal.pde",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Programação/projetofinal.pde",
+          "size": 10819,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.pde",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.pde",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Programa%C3%A7%C3%A3o/projetofinal.pde",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "Projeto final(1).png",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Esquema_TinkerCad/Projeto final(1).png",
+          "size": 163466,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final%281%29.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final%281%29.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final%281%29.png"
+        },
+        {
+          "name": "Projeto final.png",
+          "path": "2023_T2/Ultrasonic Radar - Aida Meira/Esquema_TinkerCad/Projeto final.png",
+          "size": 163466,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Aida%20Meira/Esquema_TinkerCad/Projeto%20final.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T2--ultrasonic-radar-andre-costa",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Ultrasonic Radar",
+      "author": "André Costa",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Ultrasonic Radar - André Costa",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "AJedALcsdF4",
+          "url": "https://youtu.be/AJedALcsdF4"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Radar.ino",
+          "path": "2023_T2/Ultrasonic Radar - André Costa/Radar.ino",
+          "size": 1871,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/Radar.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/Radar.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/Radar.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "radarMonitor.pde",
+          "path": "2023_T2/Ultrasonic Radar - André Costa/radarMonitor.pde",
+          "size": 11145,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/radarMonitor.pde",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/radarMonitor.pde",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Ultrasonic%20Radar%20-%20Andr%C3%A9%20Costa/radarMonitor.pde",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T2--video-aquarium-control-aurelio-machado",
+      "source": "github",
+      "edition": "2023_T2",
+      "editionLabel": "2023 · Turma 2",
+      "title": "Video Aquarium Control",
+      "author": "Aurélio Machado",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T2/Video Aquarium Control - Aurélio Machado",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "wKGCjjkv0bg",
+          "url": "https://youtu.be/wKGCjjkv0bg"
+        },
+        {
+          "name": "Esquema.pdf",
+          "path": "2023_T2/Video Aquarium Control - Aurélio Machado/Esquema.pdf",
+          "size": 40777,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/Esquema.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/Esquema.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/Esquema.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "AQ_8.ino",
+          "path": "2023_T2/Video Aquarium Control - Aurélio Machado/AQ_8.ino",
+          "size": 20455,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/AQ_8.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/AQ_8.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T2/Video%20Aquarium%20Control%20-%20Aur%C3%A9lio%20Machado/AQ_8.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T4--controlo-da-humidade-e-temperatura-de-uma-estufa-antonio-gomes",
+      "source": "github",
+      "edition": "2023_T4",
+      "editionLabel": "2023 · Turma 4",
+      "title": "Controlo da Humidade e Temperatura de uma Estufa",
+      "author": "António Gomes",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T4/Controlo da Humidade e Temperatura de uma Estufa - Antonio Gomes",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "_tJuE94zcaI",
+          "url": "https://youtu.be/_tJuE94zcaI"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto Final - Controlo de uma Estufa.docx",
+          "path": "2023_T4/Controlo da Humidade e Temperatura de uma Estufa - Antonio Gomes/Projeto Final - Controlo de uma Estufa.docx",
+          "size": 12556,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Projeto%20Final%20-%20Controlo%20de%20uma%20Estufa.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Projeto%20Final%20-%20Controlo%20de%20uma%20Estufa.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Projeto%20Final%20-%20Controlo%20de%20uma%20Estufa.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "BT_Bluetooth_Emissor.ino",
+          "path": "2023_T4/Controlo da Humidade e Temperatura de uma Estufa - Antonio Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Emissor.ino",
+          "size": 1059,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Emissor.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Emissor.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Emissor.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "BT_Bluetooth_Recetor.ino",
+          "path": "2023_T4/Controlo da Humidade e Temperatura de uma Estufa - Antonio Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Recetor.ino",
+          "size": 1137,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Recetor.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Recetor.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/BT_Bluetooth_Recetor.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Prog_Estufa_LCD_I2C.ino",
+          "path": "2023_T4/Controlo da Humidade e Temperatura de uma Estufa - Antonio Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C.ino",
+          "size": 4884,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Controlo%20da%20Humidade%20e%20Temperatura%20de%20uma%20Estufa%20-%20Antonio%20Gomes/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C/Prog_Estufa_LCD_I2C.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2023_T4--gestao-de-parque-de-estacionamento-ana-goncalves",
+      "source": "github",
+      "edition": "2023_T4",
+      "editionLabel": "2023 · Turma 4",
+      "title": "GPE- Gestão de Parque de Estacionamento",
+      "author": "Ana Gonçalves",
+      "summary": "Este projeto enquadra-se e vai de encontro às temáticas abordadas no Clube de Programação e Robótica. Assim, o mesmo, consiste num sistema de gestão de estacionamentos automatizado que foi criado utilizando sensores LDR para detetar a ocupação de lugares de estacionamento e LEDs para indicar visualmente o estado de ocupação dos lugares (LED vermelho para estado ocupado e LED verde para estado livre). Na entrada do parque, para detetar a presença de veículos, foi utilizado um sensor ultrassónico e para controlar a abertura e fecho da cancela um servo motor. Um display LCD é utilizado para mostrar o número de lugares livres e ocupados. Sempre que um carro sai do estacionamento o LCD informa o tempo de ocupação do lugar. O sistema é capaz de abrir a cancela automaticamente quando um veículo se aproxima e fechá-la após a saída do veículo.",
+      "objectives": "O objetivo deste projeto é criar um sistema de gestão de lugares de estacionamento de um parque, monitorizando a ocupação dos lugares por meio de sensores LDR, mostrando as informações num display LCD e controlando a abertura da cancela com um servo motor.\nOs objetivos específicos incluem:\nMonitorizar a ocupação dos lugares através dos sensores LDR e mostrar as informações no display LCD.\nVerificar a presença de um veículo na entrada do estacionamento usando um sensor ultrassónico.\nAbrir a cancela automaticamente se a distância de um veículo for inferior a um limite pré-estabelecido.\nFechar a cancela automaticamente quando não houver veículos próximos.\nMostrar no display LCD número de lugares livres e ocupados.\nMostrar no display LCD o tempo em segundos da ocupação de um lugar.",
+      "objectivesSource": "proposta",
+      "resources": "Arduino Uno\nCabo USB para programação do Arduino\nSensor de distância ultrassónico HC-SR04\n2 Sensores de luz LDR (Light Dependent Resistor)\n4 LEDs (2 verdes e 2 vermelhos)\nServo motor SG90\nLCD 16x2 com interface I2C\nFios de ligação\nPlaca Breadboard para montagem do circuito",
+      "folder": "2023_T4/Gestão de Parque de Estacionamento - Ana Gonçalves",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "WHjZVjSF2D8",
+          "url": "https://youtu.be/WHjZVjSF2D8"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Modelo Proposta de Projeto - GPE.docx",
+          "path": "2023_T4/Gestão de Parque de Estacionamento - Ana Gonçalves/Modelo Proposta de Projeto - GPE.docx",
+          "size": 39836,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/Modelo%20Proposta%20de%20Projeto%20-%20GPE.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/Modelo%20Proposta%20de%20Projeto%20-%20GPE.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/Modelo%20Proposta%20de%20Projeto%20-%20GPE.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "GPE_GestaoParqueEstacionamento.ino",
+          "path": "2023_T4/Gestão de Parque de Estacionamento - Ana Gonçalves/GPE_GestaoParqueEstacionamento.ino",
+          "size": 4164,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE_GestaoParqueEstacionamento.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE_GestaoParqueEstacionamento.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE_GestaoParqueEstacionamento.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "GPE - Gestão de Parque de Estacionamento.png",
+          "path": "2023_T4/Gestão de Parque de Estacionamento - Ana Gonçalves/GPE - Gestão de Parque de Estacionamento.png",
+          "size": 156853,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE%20-%20Gest%C3%A3o%20de%20Parque%20de%20Estacionamento.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE%20-%20Gest%C3%A3o%20de%20Parque%20de%20Estacionamento.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Gest%C3%A3o%20de%20Parque%20de%20Estacionamento%20-%20Ana%20Gon%C3%A7alves/GPE%20-%20Gest%C3%A3o%20de%20Parque%20de%20Estacionamento.png"
+        }
+      ]
+    },
+    {
+      "id": "2023_T4--pilhao-alfredo-teixeira",
+      "source": "github",
+      "edition": "2023_T4",
+      "editionLabel": "2023 · Turma 4",
+      "title": "Pilhão",
+      "author": "Alfredo Teixeira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2023_T4/Pilhão - Alfredo Teixeira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "2-rHQHpBQC0",
+          "url": "https://youtu.be/2-rHQHpBQC0"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Codigo.ino",
+          "path": "2023_T4/Pilhão - Alfredo Teixeira/Codigo/Codigo.ino",
+          "size": 1727,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/Codigo/Codigo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/Codigo/Codigo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/Codigo/Codigo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "ESQUEMAELETRICOPILHAOFINAL.png",
+          "path": "2023_T4/Pilhão - Alfredo Teixeira/ESQUEMAELETRICOPILHAOFINAL.png",
+          "size": 289643,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/ESQUEMAELETRICOPILHAOFINAL.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/ESQUEMAELETRICOPILHAOFINAL.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2023_T4/Pilh%C3%A3o%20-%20Alfredo%20Teixeira/ESQUEMAELETRICOPILHAOFINAL.png"
+        }
+      ]
+    },
+    {
+      "id": "2024_T2--alarme-residencial-jose-eusebio",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Alarme Residencial",
+      "author": "José Eusébio",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Alarme Residencial - José Eusébio",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Alarme%20Residencial%20-%20Jos%C3%A9%20Eus%C3%A9bio",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "h9RtlaN8Sso",
+          "url": "https://youtu.be/h9RtlaN8Sso"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "alarme_residencial.ino",
+          "path": "2024_T2/Alarme Residencial - José Eusébio/alarme_residencial/alarme_residencial.ino",
+          "size": 7621,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Alarme%20Residencial%20-%20Jos%C3%A9%20Eus%C3%A9bio/alarme_residencial/alarme_residencial.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Alarme%20Residencial%20-%20Jos%C3%A9%20Eus%C3%A9bio/alarme_residencial/alarme_residencial.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Alarme%20Residencial%20-%20Jos%C3%A9%20Eus%C3%A9bio/alarme_residencial/alarme_residencial.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--arduino-parking-maria-luisa-azevedo",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Arduino Parking",
+      "author": "Maria Luísa Azevedo",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Arduino Parking - Maria Luísa Azevedo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Arduino%20Parking%20-%20Maria%20Lu%C3%ADsa%20Azevedo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "4asLb8o9oDY",
+          "url": "https://youtu.be/4asLb8o9oDY"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "PROJETO_Arduino_Parking.ino",
+          "path": "2024_T2/Arduino Parking - Maria Luísa Azevedo/PROJETO_Arduino_Parking/PROJETO_Arduino_Parking.ino",
+          "size": 1595,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Arduino%20Parking%20-%20Maria%20Lu%C3%ADsa%20Azevedo/PROJETO_Arduino_Parking/PROJETO_Arduino_Parking.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Arduino%20Parking%20-%20Maria%20Lu%C3%ADsa%20Azevedo/PROJETO_Arduino_Parking/PROJETO_Arduino_Parking.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Arduino%20Parking%20-%20Maria%20Lu%C3%ADsa%20Azevedo/PROJETO_Arduino_Parking/PROJETO_Arduino_Parking.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--carro-comandado-por-smartphone-carlos-vale",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Carro comandado por Smartphone",
+      "author": "Carlos Vale",
+      "summary": "Este tipo de projeto enquadra-se nos conteúdos de programação do Curso Profissional Técnico de Gestão e Programação de Sistemas Informáticos, no qual eu leciono programação a duas turmas. Permite a integração entre programação e hardware, tendo os alunos a oportunidade de construir projetos mais reais, tornando assim o ensino mais dinâmico e envolvente.",
+      "objectives": "O principal objetivo deste projeto é aplicar conhecimentos adquiridos na ação de formação para desenvolver um sistema automatizado de navegação. O carro utilizará sensores de infravermelhos (IR) para detetar obstáculos e, com base nas informações recolhidas, tomará decisões para evitar colisões, alterando a sua trajetória.",
+      "objectivesSource": "proposta",
+      "resources": "1 - Arduino Uno\n2 - Motores DC com driver L298N\n2 - Sensores Infravermelhos (IR)\n1 - Módulo de Alimentação\nEstrutura do carro (chassi, rodas, suportes, etc.)",
+      "folder": "2024_T2/Carro comandado por Smartphone - Carlos Vale",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "XRzBxZdmCOs",
+          "url": "https://youtu.be/XRzBxZdmCOs"
+        },
+        {
+          "name": "Apresentação do projeto.mp4",
+          "path": "2024_T2/Carro comandado por Smartphone - Carlos Vale/Apresentação do projeto.mp4",
+          "size": 41640135,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "Apresentação do projeto.pptx",
+          "path": "2024_T2/Carro comandado por Smartphone - Carlos Vale/Apresentação do projeto.pptx",
+          "size": 20200303,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.pptx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.pptx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Apresenta%C3%A7%C3%A3o%20do%20projeto.pptx",
+          "kind": "slides"
+        },
+        {
+          "name": "Carro comandado por Smartphone.mp4",
+          "path": "2024_T2/Carro comandado por Smartphone - Carlos Vale/Carro comandado por Smartphone.mp4",
+          "size": 873148,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Carro%20comandado%20por%20Smartphone.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Carro%20comandado%20por%20Smartphone.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Carro%20comandado%20por%20Smartphone.mp4",
+          "kind": "video"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Proposta de Projeto Carlos Vale.docx",
+          "path": "2024_T2/Carro comandado por Smartphone - Carlos Vale/Proposta de Projeto Carlos Vale.docx",
+          "size": 38249,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Proposta%20de%20Projeto%20Carlos%20Vale.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Proposta%20de%20Projeto%20Carlos%20Vale.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/Proposta%20de%20Projeto%20Carlos%20Vale.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "ProgramaFinal1.ino",
+          "path": "2024_T2/Carro comandado por Smartphone - Carlos Vale/ProgramaFinal1/ProgramaFinal1.ino",
+          "size": 3188,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/ProgramaFinal1/ProgramaFinal1.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/ProgramaFinal1/ProgramaFinal1.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Carro%20comandado%20por%20Smartphone%20-%20Carlos%20Vale/ProgramaFinal1/ProgramaFinal1.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--colorir-a-vida-maria-conceicao-pereira",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Colorir a Vida",
+      "author": "Maria da Conceição Pereira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Colorir a Vida - Maria Conceição Pereira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "KOQiUo6t6hg",
+          "url": "https://youtu.be/KOQiUo6t6hg"
+        },
+        {
+          "name": "Problemas.pdf",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/Problemas.pdf",
+          "size": 456863,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Problemas.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Problemas.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Problemas.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "10Efeitos.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/10Efeitos/10Efeitos.ino",
+          "size": 8583,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/10Efeitos.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/10Efeitos.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/10Efeitos.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Efeitos.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/Efeitos/Efeitos.ino",
+          "size": 9436,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/Efeitos.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/Efeitos.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/Efeitos.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "ComandoTeclas.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/ComandoTeclas/ComandoTeclas.ino",
+          "size": 265,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/ComandoTeclas/ComandoTeclas.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/ComandoTeclas/ComandoTeclas.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/ComandoTeclas/ComandoTeclas.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "IR.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/IR/IR.ino",
+          "size": 1546,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/IR.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/IR.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/IR.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "IRFita.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/IRFita/IRFita.ino",
+          "size": 1504,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IRFita/IRFita.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IRFita/IRFita.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IRFita/IRFita.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Keycode.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/Keycode/Keycode.ino",
+          "size": 625,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/Keycode.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/Keycode.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/Keycode.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "blink.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/blink/blink.ino",
+          "size": 997,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/blink/blink.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/blink/blink.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/blink/blink.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "color_wheel.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/color_wheel/color_wheel.ino",
+          "size": 544,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/color_wheel/color_wheel.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/color_wheel/color_wheel.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/color_wheel/color_wheel.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "fade.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/fade/fade.ino",
+          "size": 800,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/fade/fade.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/fade/fade.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/fade/fade.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "intensidade_toda_fita.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/intensidade_toda_fita/intensidade_toda_fita.ino",
+          "size": 1045,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/intensidade_toda_fita/intensidade_toda_fita.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/intensidade_toda_fita/intensidade_toda_fita.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/intensidade_toda_fita/intensidade_toda_fita.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "RGBCalibrate.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/RGBCalibrate/RGBCalibrate.ino",
+          "size": 5219,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/RGBCalibrate/RGBCalibrate.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/RGBCalibrate/RGBCalibrate.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/RGBCalibrate/RGBCalibrate.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "led_correndo.ino",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesFita/led_correndo/led_correndo/led_correndo.ino",
+          "size": 600,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/led_correndo/led_correndo/led_correndo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/led_correndo/led_correndo/led_correndo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesFita/led_correndo/led_correndo/led_correndo.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "paletas.h",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/10Efeitos/paletas.h",
+          "size": 3164,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/paletas.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/paletas.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/10Efeitos/paletas.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "paletas.h",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/Efeitos/paletas.h",
+          "size": 3164,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/paletas.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/paletas.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/Efeitos/paletas.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "paletas.h",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/IR/paletas.h",
+          "size": 3164,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/paletas.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/paletas.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/IR/paletas.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "paletas.h",
+          "path": "2024_T2/Colorir a Vida - Maria Conceição Pereira/TestesComandoIR/Keycode/paletas.h",
+          "size": 3164,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/paletas.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/paletas.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Colorir%20a%20Vida%20-%20Maria%20Concei%C3%A7%C3%A3o%20Pereira/TestesComandoIR/Keycode/paletas.h",
+          "language": "cpp",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--contador-pontos-basquetebol-bruno-figueiredo",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Contador Pontos Basquetebol",
+      "author": "Bruno Figueiredo",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "PJpOuQSS4WY",
+          "url": "https://youtu.be/PJpOuQSS4WY"
+        },
+        {
+          "name": "Contador de Pontos de Basquetebol com Deteção de Cesto.pdf",
+          "path": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo/Contador de Pontos de Basquetebol com Deteção de Cesto.pdf",
+          "size": 13063054,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Contador%20de%20Pontos%20de%20Basquetebol%20com%20Dete%C3%A7%C3%A3o%20de%20Cesto.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Contador%20de%20Pontos%20de%20Basquetebol%20com%20Dete%C3%A7%C3%A3o%20de%20Cesto.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Contador%20de%20Pontos%20de%20Basquetebol%20com%20Dete%C3%A7%C3%A3o%20de%20Cesto.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "Projeto_Contador_Pontos_Basquetebol.pdf",
+          "path": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo/Projeto_Contador_Pontos_Basquetebol.pdf",
+          "size": 142857,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Projeto_Contador_Pontos_Basquetebol.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Projeto_Contador_Pontos_Basquetebol.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/Projeto_Contador_Pontos_Basquetebol.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "marcadorPontosBasquetArduino.ino",
+          "path": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo/marcadorPontosBasquetArduino/marcadorPontosBasquetArduino.ino",
+          "size": 1496,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorPontosBasquetArduino/marcadorPontosBasquetArduino.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorPontosBasquetArduino/marcadorPontosBasquetArduino.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorPontosBasquetArduino/marcadorPontosBasquetArduino.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": [
+        {
+          "name": "marcadorBasquetIR_bb.jpg",
+          "path": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo/marcadorBasquetIR_bb.jpg",
+          "size": 828921,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetIR_bb.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetIR_bb.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetIR_bb.jpg"
+        },
+        {
+          "name": "marcadorBasquetUltrassonico_bb.jpg",
+          "path": "2024_T2/Contador Pontos Basquetebol - Bruno Figueiredo/marcadorBasquetUltrassonico_bb.jpg",
+          "size": 874851,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetUltrassonico_bb.jpg",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetUltrassonico_bb.jpg",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Contador%20Pontos%20Basquetebol%20-%20Bruno%20Figueiredo/marcadorBasquetUltrassonico_bb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2024_T2--espanta-passaros-yleni-esteves",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Espanta Pássaros",
+      "author": "Yleni Esteves",
+      "summary": "Projeto Espanta Pássaros\nFormanda: Yleni Esteves\nA ideia para este projeto surge da dificuldade em afastar os pássaros de uma figueira que tenho, pois na altura em que os figos estão maduros é difícil apanhar figos sem estarem já picados.\nEste projeto consiste num pequeno espanta pássaros feito com recurso a um circuito em arduino.\nMateriais utilizados:\n- Placa Arduino UNO;\n- Breadboard;\n- Fotoresistência;\n- Resistência de 10 kΩ;\n- Buzzer;\n- 3 Leds alto brilho;\n- 3 resistências de 220Ω para limitar a corrente;\n- Jumpers, macho-macho ou macho-fêmea;\nEsquemas de ligação\nright194945\nFases de construção\n1ª fase- Fazer o algoritmo;\n2ª fase- Fazer o esquema de ligação no Tinkercad;\n3ª fase- montar o circuito físico;\n4ª fase – fazer o código no programa Arduino IDE;\n5ª fase- testar;\n6ª fase – analisar e corrigir erros;\n7ª fase – Funciona= FIM.\nDemonstração\nhttps://www.tinkercad.com/things/0N6x1kOimeP-projeto-espanta-passaros?sharecode=e7HJ9zPUgeE9KuL4TmhTHZRzyJTCgbXNZazxz0dPpaQ",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Espanta Pássaros - Yleni Esteves",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves",
+      "presentations": [
+        {
+          "name": "EspantaPassaros_1.mp4",
+          "path": "2024_T2/Espanta Pássaros - Yleni Esteves/EspantaPassaros_1.mp4",
+          "size": 8875961,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_1.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_1.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_1.mp4",
+          "kind": "video"
+        },
+        {
+          "name": "EspantaPassaros_2.mp4",
+          "path": "2024_T2/Espanta Pássaros - Yleni Esteves/EspantaPassaros_2.mp4",
+          "size": 16873176,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_2.mp4",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_2.mp4",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/EspantaPassaros_2.mp4",
+          "kind": "video"
+        },
+        {
+          "kind": "link",
+          "name": "Circuito no Tinkercad",
+          "url": "https://www.tinkercad.com/things/0N6x1kOimeP-projeto-espanta-passaros?sharecode=e7HJ9zPUgeE9KuL4TmhTHZRzyJTCgbXNZazxz0dPpaQ"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Projeto Yleni Esteves_T2_2025.docx",
+          "path": "2024_T2/Espanta Pássaros - Yleni Esteves/Projeto Yleni Esteves_T2_2025.docx",
+          "size": 378997,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto%20Yleni%20Esteves_T2_2025.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto%20Yleni%20Esteves_T2_2025.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto%20Yleni%20Esteves_T2_2025.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "Projeto_Espantapassaros.ino",
+          "path": "2024_T2/Espanta Pássaros - Yleni Esteves/Projeto_Espantapassaros/Projeto_Espantapassaros.ino",
+          "size": 1289,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto_Espantapassaros/Projeto_Espantapassaros.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto_Espantapassaros/Projeto_Espantapassaros.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Espanta%20P%C3%A1ssaros%20-%20Yleni%20Esteves/Projeto_Espantapassaros/Projeto_Espantapassaros.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--fechadura-codificada-paula-martinho",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Fechadura Codificada",
+      "author": "Paula Martinho",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Fechadura Codificada - Paula Martinho",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Fechadura%20Codificada%20-%20Paula%20Martinho",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "GhuEPl76xsU",
+          "url": "https://youtu.be/GhuEPl76xsU"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Projeto_Final_AberturaPorta_Servo.ino",
+          "path": "2024_T2/Fechadura Codificada - Paula Martinho/Projeto_Final_AberturaPorta_Servo.ino",
+          "size": 2837,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Fechadura%20Codificada%20-%20Paula%20Martinho/Projeto_Final_AberturaPorta_Servo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Fechadura%20Codificada%20-%20Paula%20Martinho/Projeto_Final_AberturaPorta_Servo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Fechadura%20Codificada%20-%20Paula%20Martinho/Projeto_Final_AberturaPorta_Servo.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--forno-reflow-eduardo-pinto",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Forno de reflow – Arduino Due",
+      "author": "Eduardo Pinto",
+      "summary": "Um forno de reflow é um equipamento utilizado no processo de soldadura de componentes eletrónicos em placas de circuito impresso. A sua principal utilidade é fundir a pasta de solda, que contém fluxo de solda e é aplicada nos pads da placa, para estabelecer ligações elétricas fiáveis entre os componentes e a placa.\nO processo de reflow consiste em aquecer a placa de circuito impresso controlando a temperatura de uma forma precisa de modo a que que a pasta de solda atinja a temperatura de “reflow” e forme as ligações necessárias. Em seguida, a placa é arrefecida gradualmente para solidificar as ligações.\nNós na nossa escola não tivemos disponibilidade financeira para a compra deste equipamento, pelo que pensei com um grupo de alunos do curso de TGPSI no âmbito dos LED tentarmos fazer este projecto. Neste momento já temos a estrutura feita e a parte de electrónica. Estamos a começar os primeiros testes cquerer fazer o mesmo.",
+      "objectives": "Demonstrar que é possível com um custo relativamente baixo utilizando materiais reciclados, como seja um micro-ondas estragado, construir um forno de reflow funcional.\n- Desenvolver o software e rotinas de teste básicas para o controlo do forno.\n- Desenvolver uma primeira versão de software que permita ter uma interface com o utilizador baseada num écran TFT.\n- Opcionalmente implementar um algoritmo de controlo de seguimento da temperatura baseado num PID:",
+      "objectivesSource": "proposta",
+      "resources": "Neste momento a lista de material utilizada é a seguinte:\nForno microondas avariado\nArduino Due\nDisplay 3.5\" 3 480*320 TFT LCD Module Screen Display ILI9486\nOptical encoder 62A11-02P g\nCabo micro-USB para painel\nTransformador de isolamento (para testes em seurança) Browson TT5000\n4 Tubos de silica 45cm (cortadas a ) 10mm diâmetro\n4 Resistências espiral com terminais 700W-230V\n8 Ponteiras em porcelana para silicas de 10mm\nMotor forno ARISTON Smeg\nCasquilho e lâmpada para forno TEKA. Ref 83140501\nPlacas de aluminio 10mm 7025 para maquinação das paredes do forno\nFita isolamento alta temperatura\nCabo com isolamento alta temperatura 17AWG\nTerminais espada fêmea 6.3mm\nTerminais espada fêmea 4.8mm\nManta autocolante reforçada alta temperatura para isolamento\nFita autocolante alta temperatura para isolamento",
+      "folder": "2024_T2/Forno Reflow - Eduardo Pinto",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "Umpsm6w9IMY",
+          "url": "https://youtu.be/Umpsm6w9IMY"
+        },
+        {
+          "name": "DRIVER_IGBT _ Driver IGBT.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/DRIVER_IGBT _ Driver IGBT.pdf",
+          "size": 50015,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "DRIVER_IGBT _ Driver IGBT2.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/DRIVER_IGBT _ Driver IGBT2.pdf",
+          "size": 50013,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT2.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT2.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT2.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "DRIVER_IGBT _ Driver IGBT3.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/DRIVER_IGBT _ Driver IGBT3.pdf",
+          "size": 50017,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT3.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT3.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT3.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "DRIVER_IGBT _ Driver IGBT4.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/DRIVER_IGBT _ Driver IGBT4.pdf",
+          "size": 50016,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT4.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT4.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/DRIVER_IGBT%20_%20Driver%20IGBT4.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "RELES _ Relesp.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/RELES _ Relesp.pdf",
+          "size": 45726,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "RELES _ Relesp2.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/RELES _ Relesp2.pdf",
+          "size": 45290,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp2.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp2.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp2.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "RELES _ Relesp3.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/RELES _ Relesp3.pdf",
+          "size": 45289,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp3.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp3.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/RELES%20_%20Relesp3.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "ROOT.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/Schematic Power board/ROOT.pdf",
+          "size": 54369,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/ROOT.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/ROOT.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/Schematic%20Power%20board/ROOT.pdf",
+          "kind": "pdf"
+        },
+        {
+          "name": "soft_start.pdf",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/soft_start.pdf",
+          "size": 48347,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/soft_start.pdf",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/soft_start.pdf",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/soft_start.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Modelo Proposta de Projeto - Eduardo PInto.docx",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Modelo Proposta de Projeto - Eduardo PInto.docx",
+          "size": 40266,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Modelo%20Proposta%20de%20Projeto%20-%20Eduardo%20PInto.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Modelo%20Proposta%20de%20Projeto%20-%20Eduardo%20PInto.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Modelo%20Proposta%20de%20Projeto%20-%20Eduardo%20PInto.docx",
+          "kind": "document"
+        },
+        {
+          "name": "PCB LAYOUT prints soft start.docx",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/PCB LAYOUT prints soft start.docx",
+          "size": 165087,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints%20soft%20start.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints%20soft%20start.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints%20soft%20start.docx",
+          "kind": "document"
+        },
+        {
+          "name": "PCB LAYOUT prints.docx",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Sources/Boards schematics in PDF/PCB LAYOUT prints.docx",
+          "size": 576965,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Sources/Boards%20schematics%20in%20PDF/PCB%20LAYOUT%20prints.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "Teste_PWM2.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Teste_PWM2/Teste_PWM2.ino",
+          "size": 6921,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_PWM2/Teste_PWM2.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_PWM2/Teste_PWM2.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_PWM2/Teste_PWM2.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "max31865.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Teste_SPI_MAX31865/max31865/max31865.ino",
+          "size": 2480,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_SPI_MAX31865/max31865/max31865.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_SPI_MAX31865/max31865/max31865.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Teste_SPI_MAX31865/max31865/max31865.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "diagnose_TFT_support_OK.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/diagnose_TFT_support_OK/diagnose_TFT_support_OK.ino",
+          "size": 5049,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/diagnose_TFT_support_OK/diagnose_TFT_support_OK.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/diagnose_TFT_support_OK/diagnose_TFT_support_OK.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/diagnose_TFT_support_OK/diagnose_TFT_support_OK.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "drawBitmap_kbv.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/drawBitmap_kbv/drawBitmap_kbv.ino",
+          "size": 5720,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/drawBitmap_kbv.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/drawBitmap_kbv.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/drawBitmap_kbv.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Font_simple.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/Font_simple/Font_simple.ino",
+          "size": 2047,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Font_simple/Font_simple.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Font_simple/Font_simple.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Font_simple/Font_simple.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "graphictest_kbv.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/graphictest_kbv/graphictest_kbv.ino",
+          "size": 18295,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/graphictest_kbv.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/graphictest_kbv.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/graphictest_kbv.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "Touch_shield_new.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/Touch_shield_new/Touch_shield_new.ino",
+          "size": 7613,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Touch_shield_new/Touch_shield_new.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Touch_shield_new/Touch_shield_new.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Touch_shield_new/Touch_shield_new.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "TouchScreen_Calibr_native.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_Calibr_native.ino",
+          "size": 13210,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_Calibr_native.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_Calibr_native.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_Calibr_native.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "graphicstest.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master (not working)/examples/graphicstest/graphicstest.ino",
+          "size": 8340,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/graphicstest/graphicstest.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/graphicstest/graphicstest.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/graphicstest/graphicstest.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "IOXhop_Logo.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master (not working)/examples/IOXhop_Logo/IOXhop_Logo.ino",
+          "size": 1001,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/IOXhop_Logo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/IOXhop_Logo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/IOXhop_Logo.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "logo.ino",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master (not working)/examples/IOXhop_Logo/logo.ino",
+          "size": 96137,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/logo.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/logo.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/Outros/Adafruit_TFTLCD_ILI9481-master%20%28not%20working%29/examples/IOXhop_Logo/logo.ino",
+          "language": "cpp",
+          "sketch": true
+        },
+        {
+          "name": "encoder.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/encoder.cpp",
+          "size": 1769,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/encoder.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/encoder.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/encoder.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "globals.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/globals.cpp",
+          "size": 1583,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/globals.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/globals.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/globals.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "graphic_functions.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/graphic_functions.cpp",
+          "size": 5823,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphic_functions.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphic_functions.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphic_functions.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "graphs.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/graphs.cpp",
+          "size": 7491,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphs.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphs.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/graphs.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "icons.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/icons.cpp",
+          "size": 53163,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/icons.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/icons.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/icons.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "main.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/main.cpp",
+          "size": 2669,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/main.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/main.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/main.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "MAX31865.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/MAX31865.cpp",
+          "size": 6494,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/MAX31865.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/MAX31865.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/MAX31865.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "menus.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/menus.cpp",
+          "size": 6157,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/menus.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/menus.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/menus.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "my_defs.h",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/my_defs.h",
+          "size": 5372,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/my_defs.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/my_defs.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/my_defs.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "owen.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/owen.cpp",
+          "size": 3452,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/owen.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/owen.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/owen.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "pwm.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/pwm.cpp",
+          "size": 7786,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/pwm.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/pwm.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/pwm.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "snake.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/snake.cpp",
+          "size": 9091,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/snake.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/snake.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/snake.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "Testes.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_1/src/Testes.cpp",
+          "size": 19210,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/Testes.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/Testes.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_1/src/Testes.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "main.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Teste_display/src/main.cpp",
+          "size": 148,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_display/src/main.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_display/src/main.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Teste_display/src/main.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "bitmap_mono.h",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/drawBitmap_kbv/bitmap_mono.h",
+          "size": 20014,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_mono.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_mono.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_mono.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "bitmap_RGB.h",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/drawBitmap_kbv/bitmap_RGB.h",
+          "size": 94749,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_RGB.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_RGB.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/drawBitmap_kbv/bitmap_RGB.h",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "icons.c",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/graphictest_kbv/icons.c",
+          "size": 53161,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/icons.c",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/icons.c",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/graphictest_kbv/icons.c",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "TouchScreen_kbv.cpp",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.cpp",
+          "size": 3944,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.cpp",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.cpp",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.cpp",
+          "language": "cpp",
+          "sketch": false
+        },
+        {
+          "name": "TouchScreen_kbv.h",
+          "path": "2024_T2/Forno Reflow - Eduardo Pinto/Programa Arduinos (VSC)/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.h",
+          "size": 927,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.h",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.h",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Forno%20Reflow%20-%20Eduardo%20Pinto/Programa%20Arduinos%20%28VSC%29/Testes/Testes_display/TouchScreen_Calibr_native/TouchScreen_kbv.h",
+          "language": "cpp",
+          "sketch": false
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--luz-automatica-judite-vale",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Luz Automática",
+      "author": "Judite Vale",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Luz Automática - Judite Vale",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "y69FQUxHXTY",
+          "url": "https://youtu.be/y69FQUxHXTY"
+        }
+      ],
+      "documents": [
+        {
+          "name": "link_thinkercad_PF.docx",
+          "path": "2024_T2/Luz Automática - Judite Vale/link_thinkercad_PF.docx",
+          "size": 275143,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/link_thinkercad_PF.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/link_thinkercad_PF.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/link_thinkercad_PF.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "projeto_LED.ino",
+          "path": "2024_T2/Luz Automática - Judite Vale/projeto_LED.ino",
+          "size": 2635,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/projeto_LED.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/projeto_LED.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Luz%20Autom%C3%A1tica%20-%20Judite%20Vale/projeto_LED.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--parque-de-estacionamento-sergio-filipe",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Parque de Estacionamento da ESBN",
+      "author": "Sérgio Filipe",
+      "summary": "O projeto de criação de um parque de estacionamento utilizando Arduíno com sensores e atuadores será uma excelente iniciativa para apresentar aos alunos do clube de robótica da ESBN e introduzi-los a conceitos fundamentais de eletrónica, programação e automação. Este projeto permite mostrar aos alunos a aplicabilidade de conhecimentos teóricos num contexto prático, permitindo desenvolver habilidades no que concerne à resolução de problemas, trabalho em equipa e pensamento crítico.\nO Arduíno é uma plataforma de prototipagem eletrónica de código aberto e é ideal para este tipo de projeto devido à sua facilidade de uso e à vasta comunidade de suporte. Sensores como ultrassónicos ou infravermelhos podem ser usados para detetar a presença de veículos, enquanto atuadores como servomotores ou LED’s podem ser usados para controlar a entrada e saída de veículos.",
+      "objectives": "Introdução ao Arduíno e Sensores:\n- Familiarizar os alunos com a plataforma Arduíno, incluindo a instalação do software, configuração básica e programação;\n- Introduzir os alunos aos diferentes tipos de sensores e suas aplicações práticas.\nDesenvolvimento de Habilidades de Programação:\n- Ensinar os alunos a escrever e depurar código em C/C++ para o Arduíno;\n- Explorar conceitos de programação como ciclos, estruturas condicionais, etc …\nIntegração de Sensores e Atuadores:\n- Demonstrar como ligar e configurar sensores para detetar a presença de veículos;\n- Mostrar como controlar atuadores como LED’s, servomotores e displays para fornecer feedback visual ou efetuar controlo de acessos.\nDesign e Construção do Parque de Estacionamento:\n- Mostrar aos alunos o design de um layout funcional para um parque de estacionamento, considerando a localização de sensores e atuadores.\nImplementação e desenvolvimento de lógica de programação:\n- Desenvolver a lógica para gerir a entrada e saída de veículos, incluindo a deteção de lugares disponíveis e a sinalização de parque completo;\n- Implementar um sistema de contagem de veículos.\nTestes e Otimização:\n- Realizar testes para garantir que o sistema funciona conforme o esperado, identificando e corrigindo possíveis falhas.\n- Otimizar o código e o design para melhorar a eficiência e a precisão do sistema.\nDocumentação e Apresentação:\n- Mostrar aos alunos como se documenta um projeto, incluindo esquemas elétricos, código-fonte e instruções de montagem.\n- Mostrar aos alunos como se apresenta o projeto, explicando o funcionamento e os desafios superados!\nConclusão\nEste projeto visa não só proporcionar uma experiência prática valiosa em robótica e automação, mas também estimular a criatividade e a inovação. O objetivo final do projeto é o de criar um protótipo funcional de um parque de estacionamento automatizado, permitindo adquirir competências técnicas e soft skills que serão úteis para futuros projetos.",
+      "objectivesSource": "proposta",
+      "resources": "1 x Cartolina;\n1 x Palhinha;\nFita isoladora;\nFita de dupla face;\n4 carrinhos HotWheels;\nFios Elétricos;\n1 x Breadboard;\n1 x Arduíno Nano;\n1 x Led Vermelho;\n1 x Led Verde;\n2 x Sensores de Proximidade IR;\n1 x Servo;\n1 x LCD I2C;\n2 x Resistências de 220 Ohm;",
+      "folder": "2024_T2/Parque de Estacionamento - Sérgio Filipe",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "Lif1wn1LAPU",
+          "url": "https://youtu.be/Lif1wn1LAPU"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Proposta de Projeto_Parque_de_Estacionamento.docx",
+          "path": "2024_T2/Parque de Estacionamento - Sérgio Filipe/Proposta de Projeto_Parque_de_Estacionamento.docx",
+          "size": 40924,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Proposta%20de%20Projeto_Parque_de_Estacionamento.docx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Proposta%20de%20Projeto_Parque_de_Estacionamento.docx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Proposta%20de%20Projeto_Parque_de_Estacionamento.docx",
+          "kind": "document"
+        }
+      ],
+      "code": [
+        {
+          "name": "Park_ESBN.ino",
+          "path": "2024_T2/Parque de Estacionamento - Sérgio Filipe/Park_ESBN.ino",
+          "size": 3121,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Park_ESBN.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Park_ESBN.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Parque%20de%20Estacionamento%20-%20S%C3%A9rgio%20Filipe/Park_ESBN.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--sistema-de-abertura-de-porta-pedro-coelho",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Sistema de Abertura de Porta",
+      "author": "Pedro Coelho",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Sistema de Abertura de Porta - Pedro Coelho",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "by-nRChzcU8",
+          "url": "https://youtu.be/by-nRChzcU8"
+        },
+        {
+          "name": "Abertura-de-Porta.pptx",
+          "path": "2024_T2/Sistema de Abertura de Porta - Pedro Coelho/Abertura-de-Porta.pptx",
+          "size": 7478209,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Abertura-de-Porta.pptx",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Abertura-de-Porta.pptx",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Abertura-de-Porta.pptx",
+          "kind": "slides"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "Porta.ino",
+          "path": "2024_T2/Sistema de Abertura de Porta - Pedro Coelho/Porta.ino",
+          "size": 8279,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Porta.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Porta.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Sistema%20de%20Abertura%20de%20Porta%20-%20Pedro%20Coelho/Porta.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--sistema-de-alarme-susana-vieira",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "Sistema de Alarme",
+      "author": "Susana Vieira",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/Sistema de Alarme - Susana Vieira",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/Sistema%20de%20Alarme%20-%20Susana%20Vieira",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "BTMt5eJqGdA",
+          "url": "https://youtu.be/BTMt5eJqGdA"
+        }
+      ],
+      "documents": [],
+      "code": [
+        {
+          "name": "projetoarduino.ino",
+          "path": "2024_T2/Sistema de Alarme - Susana Vieira/projetoarduino.ino",
+          "size": 1655,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/Sistema%20de%20Alarme%20-%20Susana%20Vieira/projetoarduino.ino",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/Sistema%20de%20Alarme%20-%20Susana%20Vieira/projetoarduino.ino",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/Sistema%20de%20Alarme%20-%20Susana%20Vieira/projetoarduino.ino",
+          "language": "cpp",
+          "sketch": true
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "2024_T2--tictac-vibe-anabela-angelico",
+      "source": "github",
+      "edition": "2024_T2",
+      "editionLabel": "2024 · Turma 2",
+      "title": "TicTac Vibe",
+      "author": "Anabela Angélico",
+      "summary": "",
+      "objectives": "",
+      "objectivesSource": "",
+      "resources": "",
+      "folder": "2024_T2/TicTac Vibe - Anabela Angélico",
+      "githubUrl": "https://github.com/LuisFernandes550/FormacaoAnpri/tree/main/2024_T2/TicTac%20Vibe%20-%20Anabela%20Ang%C3%A9lico",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Ligação externa",
+          "url": "https://view.genially.com/680e87fab69828871ba6b0ab/interactive-content-programacao-com-arduinos"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [
+        {
+          "name": "TicTacVibe.png",
+          "path": "2024_T2/TicTac Vibe - Anabela Angélico/TicTacVibe.png",
+          "size": 303961,
+          "url": "https://github.com/LuisFernandes550/FormacaoAnpri/blob/main/2024_T2/TicTac%20Vibe%20-%20Anabela%20Ang%C3%A9lico/TicTacVibe.png",
+          "rawUrl": "https://raw.githubusercontent.com/LuisFernandes550/FormacaoAnpri/main/2024_T2/TicTac%20Vibe%20-%20Anabela%20Ang%C3%A9lico/TicTacVibe.png",
+          "cdnUrl": "https://cdn.jsdelivr.net/gh/LuisFernandes550/FormacaoAnpri@main/2024_T2/TicTac%20Vibe%20-%20Anabela%20Ang%C3%A9lico/TicTacVibe.png"
+        }
+      ]
+    },
+    {
+      "id": "drive--35-anos-chocapic-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "35 Anos Chocapic",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "35 Anos Chocapic.mp4",
+          "id": "15RLQ7pYhBHF838iU9mLZoP5sJU5Twxhm",
+          "url": "https://drive.google.com/file/d/15RLQ7pYhBHF838iU9mLZoP5sJU5Twxhm/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--a-planta-precisa-de-agua-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "A planta precisa de água",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "A planta precisa de água.mp4",
+          "id": "1K5b6yD1eEwg8keSxZOq0PpAw4ucfO0PG",
+          "url": "https://drive.google.com/file/d/1K5b6yD1eEwg8keSxZOq0PpAw4ucfO0PG/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--air-quality-monitor",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Air Quality Monitor",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "eDLaKyqRuLo",
+          "url": "https://youtu.be/eDLaKyqRuLo"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--anprino-nandy-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Anprino Nandy",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Anprino Nandy.mp4",
+          "id": "1oRWNc1HIJyMe4yI0HtMRQsYIE2kitm8u",
+          "url": "https://drive.google.com/file/d/1oRWNc1HIJyMe4yI0HtMRQsYIE2kitm8u/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--arduino-robot-aeroplaine-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Arduino Robot Aeroplaine",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Arduino Robot Aeroplaine.mp4",
+          "id": "11cK1943NK-KOhFFD5wUONK0LBFxhW7uK",
+          "url": "https://drive.google.com/file/d/11cK1943NK-KOhFFD5wUONK0LBFxhW7uK/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--arduinoledrockergame-wmv",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "ArduinoLedRockerGame",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "ArduinoLedRockerGame.wmv",
+          "id": "14apuB4h8OoPg003oDZ2-9oDeEu1zLLjP",
+          "url": "https://drive.google.com/file/d/14apuB4h8OoPg003oDZ2-9oDeEu1zLLjP/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--caixote-lixo-inteligente-mov",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Caixote Lixo Inteligente",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Caixote Lixo Inteligente.MOV",
+          "id": "1JI8pc5YQFO8vSzRzMxx_aiCxI2MRIYuh",
+          "url": "https://drive.google.com/file/d/1JI8pc5YQFO8vSzRzMxx_aiCxI2MRIYuh/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--carro-de-4-rodas",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Carro de 4 rodas",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "r9xKnTCDRbE",
+          "url": "https://www.youtube.com/watch?v=r9xKnTCDRbE&ab_channel=PauloDomingos"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--construcao-e-programacao-de-carro-comandado-por-bluetooth",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Construção e programação de carro comandado por bluetooth",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Canva",
+          "url": "https://www.canva.com/design/DAFFAQoVd6U/PyCSWfKILhAQBqCjgeoxxQ/view?utm_content=DAFFAQoVd6U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--codigo-morse",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Código morse",
+      "author": "",
+      "summary": "",
+      "objectives": "Vídeos tradutor morse Vídeos descodificador morse",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Vídeo no Drive",
+          "id": "1iBUA7C0J8mmxJ60duLNXlnr_LFYhN3Eq",
+          "url": "https://drive.google.com/file/d/1iBUA7C0J8mmxJ60duLNXlnr_LFYhN3Eq/view?usp=sharing"
+        },
+        {
+          "kind": "drive",
+          "name": "Vídeo no Drive",
+          "id": "18l-QUXHiIpeqWOHHI2Bx-aqbQ_QHdxnd",
+          "url": "https://drive.google.com/file/d/18l-QUXHiIpeqWOHHI2Bx-aqbQ_QHdxnd/view?usp=sharing"
+        },
+        {
+          "kind": "drive",
+          "name": "Vídeo no Drive",
+          "id": "1qqovnUfKRrFI2JXt3nUERQn5iGPH6aY4",
+          "url": "https://drive.google.com/file/d/1qqovnUfKRrFI2JXt3nUERQn5iGPH6aY4/view?usp=sharing"
+        },
+        {
+          "kind": "drive",
+          "name": "Vídeo no Drive",
+          "id": "1UWG0Ck-MEAUyvRSzZ-wDUUMz2BaLZTUu",
+          "url": "https://drive.google.com/file/d/1UWG0Ck-MEAUyvRSzZ-wDUUMz2BaLZTUu/view?usp=sharing"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": "drive"
+    },
+    {
+      "id": "drive--estacao-meteorologica-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Estação Meteorológica",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Estação Meteorológica.mp4",
+          "id": "1_DCXO0BjeI8UlinHjxsSHk5-2d-f6vMB",
+          "url": "https://drive.google.com/file/d/1_DCXO0BjeI8UlinHjxsSHk5-2d-f6vMB/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--housesensors-mpg",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "HouseSensors",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "HouseSensors.mpg",
+          "id": "1HoYR7VY7DxQg_vmtzYtf6dHI5VJJ10Uw",
+          "url": "https://drive.google.com/file/d/1HoYR7VY7DxQg_vmtzYtf6dHI5VJJ10Uw/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--humidade-do-solo",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Humidade do solo",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Fotografias",
+          "url": "https://photos.google.com/share/AF1QipNEEqznLdU8sMRFOpoBGEKi6Hst985M54b4Rnrn_URTGVLLQ3kTsZJ_1Gg8TO93-w?pli=1&key=bUNDSHdzUjd0aExySzFBQ1E4cl94MWs4ZzBEMllR"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--iot-smart-home",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "IOT | Smart Home",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Ligação externa",
+          "url": "https://escolaonline.pt/arduino/"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--kit-carrinho-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Kit Carrinho",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Kit Carrinho.mp4",
+          "id": "1d5ePUp6CuT7e0FSelL1VTDagGq5BHJO3",
+          "url": "https://drive.google.com/file/d/1d5ePUp6CuT7e0FSelL1VTDagGq5BHJO3/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--luzvidro-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "LuzVidro",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "LuzVidro.mp4",
+          "id": "1b7fbrxSBM-yxFRJWOuhFL2RF2P0MaDjk",
+          "url": "https://drive.google.com/file/d/1b7fbrxSBM-yxFRJWOuhFL2RF2P0MaDjk/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--maynards-car",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Maynards Car",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "skW-n12dCx0",
+          "url": "https://www.youtube.com/watch?v=skW-n12dCx0&ab_channel=JennyFariaFerreira"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--monitorizacao-de-elementos-numa-sala-tecnica",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Monitorização de elementos numa sala técnica",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "nnZU7QaYX6A",
+          "url": "https://www.youtube.com/watch?v=nnZU7QaYX6A&ab_channel=MarcoPacheco"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--parque-de-estacionamento-automatico",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Parque de Estacionamento Automático",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Genially",
+          "url": "https://view.genial.ly/61ccaf271f63df0dd8e4725b/presentation-parque-de-estacionamento-anpri-cristina-costa"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--parque-de-estacionamento-com-legos",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Parque de estacionamento com Legos",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Fotografias",
+          "url": "https://photos.app.goo.gl/x3FviVvsrLFuUT9Y8"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--parque-estacionamento-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Parque Estacionamento",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Parque Estacionamento.mp4",
+          "id": "1judBxRng4ybfgKwNKli0sPzscQaSPDXc",
+          "url": "https://drive.google.com/file/d/1judBxRng4ybfgKwNKli0sPzscQaSPDXc/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--projeto-de-natal-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Projeto de Natal",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Projeto de Natal.mp4",
+          "id": "1ldCuSZY3hmlaWd05q-_buKQHinXIORjq",
+          "url": "https://drive.google.com/file/d/1ldCuSZY3hmlaWd05q-_buKQHinXIORjq/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--projetoarduinofgr-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "ProjetoArduinoFGR",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "ProjetoArduinoFGR.mp4",
+          "id": "1G67V5AwHp_ce-G5x6EAEge7Q1CLTByLl",
+          "url": "https://drive.google.com/file/d/1G67V5AwHp_ce-G5x6EAEge7Q1CLTByLl/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--raibowcar-final-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Raibowcar_Final",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Raibowcar_Final.mp4",
+          "id": "1ePTNdo9wbtE5f3iypj4a2bDsYHj_QpQK",
+          "url": "https://drive.google.com/file/d/1ePTNdo9wbtE5f3iypj4a2bDsYHj_QpQK/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--robotcontroladobluetooth-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "RobotControladoBluetooth",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "RobotControladoBluetooth.mp4",
+          "id": "1I0fmdhTOVebYnzkxs2p8HWHRoCCZ1H9U",
+          "url": "https://drive.google.com/file/d/1I0fmdhTOVebYnzkxs2p8HWHRoCCZ1H9U/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--sistemaregainteligente-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "SistemaRegaInteligente",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "SistemaRegaInteligente.mp4",
+          "id": "1xVhSRfakO3VHjwpFs9hWawCIE1vVOxHn",
+          "url": "https://drive.google.com/file/d/1xVhSRfakO3VHjwpFs9hWawCIE1vVOxHn/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--smart-trash-bin",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Smart Trash Bin",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "youtube",
+          "name": "Vídeo",
+          "id": "dkgqH85R3vc",
+          "url": "https://www.youtube.com/watch?v=dkgqH85R3vc&ab_channel=NelsonBarra"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--temporizadorcozinha-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "TemporizadorCozinha",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "TemporizadorCozinha.mp4",
+          "id": "1bkjKCDYMGe1cELmsoqmKVNbOm5Qdf3u4",
+          "url": "https://drive.google.com/file/d/1bkjKCDYMGe1cELmsoqmKVNbOm5Qdf3u4/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--tradutor-de-codigo-morse-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "Tradutor de Codigo Morse",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "Tradutor de Codigo Morse.mp4",
+          "id": "17LlKrVOl5lVw0eCm9QEQ9rqpwgJc2Zbl",
+          "url": "https://drive.google.com/file/d/17LlKrVOl5lVw0eCm9QEQ9rqpwgJc2Zbl/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--ultrasonic-radar-com-som",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "Ultrasonic Radar com Som",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Genially",
+          "url": "https://view.genial.ly/60ca6cd23e58ec0dc992436e/presentation-radarultrasonicocomsom"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--vid-relogiotemphum-mp4",
+      "source": "drive",
+      "edition": "drive",
+      "editionLabel": "Vídeos no Drive",
+      "title": "VID_RelogioTempHum",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "drive",
+          "name": "VID_RelogioTempHum.mp4",
+          "id": "1crKLCURpjAz-1-Br2iXsReczbBIVHK7D",
+          "url": "https://drive.google.com/file/d/1crKLCURpjAz-1-Br2iXsReczbBIVHK7D/view"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    },
+    {
+      "id": "drive--dispensador-de-alcool-gel-com-sensor",
+      "source": "drive",
+      "edition": "ligacoes",
+      "editionLabel": "Ligações externas",
+      "title": "﻿Dispensador de Álcool Gel com sensor",
+      "author": "",
+      "summary": "",
+      "objectives": "",
+      "resources": "",
+      "folder": "",
+      "githubUrl": "",
+      "presentations": [
+        {
+          "kind": "link",
+          "name": "Apresentação Genially",
+          "url": "https://view.genial.ly/60cb637bb0ec0d0dcf59cbdf/presentation-projeto-anpricristina"
+        }
+      ],
+      "documents": [],
+      "code": [],
+      "images": [],
+      "objectivesSource": ""
+    }
+  ]
+};
