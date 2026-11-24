@@ -17,8 +17,9 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JS = ROOT / "data" / "catalog.js"
-OUT_JSON = ROOT / "data" / "catalog.json"
+SITE = ROOT / "docs"
+OUT_JS = SITE / "data" / "catalog.js"
+OUT_JSON = SITE / "data" / "catalog.json"
 
 REPO = "LuisFernandes550/FormacaoAnpri"
 BRANCH = "main"
@@ -597,7 +598,7 @@ def build_drive_projects() -> list[dict]:
 
 
 def load_overrides() -> dict[str, str]:
-    path = ROOT / "data" / "objetivos.json"
+    path = SITE / "data" / "objetivos.json"
     if not path.exists():
         return {}
     data = json.loads(path.read_text(encoding="utf-8"))
