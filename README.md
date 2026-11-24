@@ -1,6 +1,6 @@
 # Catálogo da formação Programação com Arduinos
 
-O site dos projetos está em [https://luisfernandes550.github.io/FormacaoAnpri/](https://luisfernandes550.github.io/FormacaoAnpri/).
+O site dos projetos está em [https://luisfernandes550.github.io/](https://luisfernandes550.github.io/).
 
 Página para consultar os projetos dos formandos: designação e objetivos, apresentação (vídeo, diapositivos ou PDF) e código.
 
